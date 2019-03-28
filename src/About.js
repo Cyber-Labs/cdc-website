@@ -1,0 +1,20 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './About.css';
+import img from './Campus.jpeg'
+
+class About extends React.Component {
+    render() {
+        return (
+            <div class="background">
+                <div><img src={img} class="image3" /></div>
+                <div class="about-text">
+                    <h1>About IIT(ISM),Dhanbad</h1>
+                    <p>Indian Institute of Technology(Indian School Of Mines) Dhanbad formerly known as ISM Dhanbadwas set up by the Government of India and was formally Inaugrated by his Excellency the Viceroy Lord Irvin on 9th December, 1926 on the model of Royal School Of Mines, London.<br /> Endowed with the highest quality of teaching and learning, the graduates, post graduates and research scholars are always ready to tackle all challenges to take their place as deicated professionals in various industries in India and abroad. What started as an institution to impart mining education has graduated into a full fledged technical institution of international acclaim offering programs like B.Tech, Dual Degree, Integrated M.Sc, Integrated M.Sc.Tech, M.tech, M.Phil and MBA. In addition the institute offers full as well as part time Ph.D programmes and Post-Doctoral Fellowship(PDF).  </p>
+                </div>
+            </div>
+
+        )
+    }
+}
+export default About;
