@@ -1,0 +1,64 @@
+
+.flex-container3{
+ display: flex;
+ 
+ justify-content: space-between;
+ padding-bottom: 5vh;
+ background-color: #f7f8fa;
+ padding-top: 5vh;
+ flex-direction: row;
+ align-items: center;
+}
+.img2{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    
+
+    
+    
+
+}
+.image2{
+    
+    height: 30vh;
+    width:30vw;
+    
+    
+    
+   
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+    
+}
+.message-text{
+    
+    
+    font-size: 2.2vh;
+    text-align: left;
+    
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+@media all and (max-width: 600px) {
+    .flex-container3{
+      flex-direction: column;
+    }
+    .image2{
+        width: 60vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h{
+        text-align: center;
+    }
+    .message-text{
+        padding-right:2.5vh;
+        padding-left: 2.5vh;
+    }
+    .img2{
+        padding-right:2.5vh;
+        padding-left:2.5vh;
+
+    }
+  }

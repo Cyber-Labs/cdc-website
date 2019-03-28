@@ -1,0 +1,14 @@
+.box{
+    display:flex;
+    
+    flex-wrap: wrap;
+}
+li{
+    display: block;
+    float: unset;
+}
+ul {
+    list-style-type: decimal;
+    border: none;
+    background-color: white;
+  }

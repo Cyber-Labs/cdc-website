@@ -1,0 +1,36 @@
+.mainbox{
+    display:flex;
+    flex-direction: column;
+
+}
+.transport{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vh 3vw 2vh 3vw;
+}
+.byrail{
+    text-align:center;
+    width:45vw;
+    background-color: #f8f8f8;
+}
+p{
+    padding: 2vh 2vw 2vh 2vw;
+}
+.hotels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2vh 3vw 2vh 3vw;
+}
+.sonotel{
+    text-align:center;
+    width:45vw;
+    background-color: #f8f8f8;
+}
+.boarding{
+    margin:2vh 3vw 2vh 3vw;
+}
+.points{
+    margin-left:2vw;
+}
