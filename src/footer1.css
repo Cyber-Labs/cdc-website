@@ -1,3 +1,13 @@
+@media screen and (max-device-width:600px)
+{
+  .flex-container-f {
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content:center;
+    align:center;
+  }
+
+}
 .flex-container-f {
   display: flex;
   flex-direction: row;
@@ -12,13 +22,12 @@
     align-content: center;
     background-color:#333841;
     color:white;
-    width:45vh;
-      
+   
 }
 .flex-2f{
 	/*display: flex;*/
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: left;
     line-height: 4.8vh;
     background-color:#e5e5e5;
     
@@ -26,7 +35,7 @@
 .flex-3f{
 	/*display: flex;*/
     flex-direction: column;
-    margin: 0vh 0vh 0vh 1.4vh;
+/*    margin: 0vh 0vh 0vh 1.4vh;*/
     line-height: 4.8vh;
     background-color:#e5e5e5;
     
@@ -35,7 +44,7 @@
 	text-align:right;
 	/*display: flex;*/
     flex-direction: column;
-    margin: 1.6vh 0vh 0vh 7.68vh;
+/*    margin: 1.6vh 0vh 0vh 7.68vh;*/
     background-color:#e5e5e5;
     
 }
