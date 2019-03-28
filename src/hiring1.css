@@ -1,0 +1,61 @@
+@media screen and (max-device-width:500px)
+{
+  .main {
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content:center;
+    align:center;
+  }
+
+
+}
+
+
+
+body{
+	font-family:'Open Sans';
+
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  
+
+
+
+}
+.flexd{
+	display:flex;
+	flex-direction:column;
+}
+.flexlink{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 2vh 4vh 2vh 4vh;
+	
+
+}
+
+
+button{
+	background-color:#fdb132;
+	border-radius:0.8vh;
+	border-color:none;
+	color:white;
+	font-size:3.2vh;
+	cursor:pointer;
+}
+.heading{
+	font-size:4.8vh;
+}
+
+
+.box{
+
+	
+
+	margin: auto;
+	box-shadow: 0.8vh 1.6vh 2.88vh #888888;
+}
