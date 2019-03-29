@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Header from './Header';
+
 class Policy extends React.Component{
 	render(){
-		return(
+		return(<div>
+      <Header />
 			<div className="matter">
 			 <div className="p2">
-			  <p><div className="headingpolicy">Guidelines by All IIT Placement Committee(AIPC) to the recruiters..</div></p>
+			  <h1><div className="headingpolicy">Guidelines by All IIT Placement Committee(AIPC) to the recruiters..</div></h1>
 			  In order to have a mutual benefit and to have a long term association, the AIPC has indicated the following guidelines to the recruiters. All the recruiters are requested to kindly stick to these positively to have a smooth placement process.
 			 </div>
 			 <div className="p3">
@@ -76,7 +79,7 @@ class Policy extends React.Component{
               </p>
              </div>
             </div>
-
+            </div>
               
 
 
