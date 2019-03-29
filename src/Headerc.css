@@ -60,4 +60,11 @@ ul {
     color: white;
     background-color: #4CAF50;
   }
-  
+  .header_nav{
+    display: flex;
+    flex-flow: row nowrap;    
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }

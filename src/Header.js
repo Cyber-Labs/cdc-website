@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import './Headerc.css';
 
 class Header extends React.Component {
@@ -14,15 +15,15 @@ class Header extends React.Component {
 
             </div>
                 <div>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">For Companies</a></li>
-                            <li><a href="#">For Students</a></li>
-                            <li><a href="#">For Alumini</a></li>
-                            <li><a href="#">Policies</a></li>
-                            <li><a href="#">Placement Stats</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                    <nav >
+                        <ul class="header_nav">
+                            <li><Link to ="/">Home</Link></li>
+                            <li><Link to="/for-companies">For Companies</Link></li>
+                            <li><Link to="/for-students">For Students</Link></li>
+                            <li><Link to="/for-alumni">For Alumini</Link></li>
+                            <li><Link to="/policies">Policies</Link></li>
+                            <li><Link to="/placement-stats">Placement Stats</Link></li>
+                            <li><Link to="/contact-us">Contact Us</Link></li>
                         </ul>
                     </nav>
                 </div>
