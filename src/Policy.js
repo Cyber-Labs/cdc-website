@@ -87,6 +87,7 @@ class Policy extends React.Component{
               </p>
              </div>
              </div>
+             <Footer />
             </div>
             
               
