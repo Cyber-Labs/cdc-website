@@ -17,9 +17,11 @@
   background-color:#e5e5e5;
 }
 
-.flex-1f{
-	  /*display: flex;*/
-    align-content: center;
+.flex-1f {
+	  display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color:#333841;
     color:white;
    
