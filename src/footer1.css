@@ -13,7 +13,7 @@
   flex-direction: row;
   align:center;
   margin: 3.2vh 0vh 0vh 0vh;
-  justify-content: space-between;
+  justify-content: flex-start;
   background-color:#e5e5e5;
 }
 
@@ -29,9 +29,11 @@
 .flex-2f{
 	/*display: flex;*/
     flex-direction: column;
+    /* justify-content: flex-start; */
     justify-content: left;
     line-height: 4.8vh;
     background-color:#e5e5e5;
+    padding-left: 2vw;
     
 }
 .flex-3f{
@@ -40,6 +42,7 @@
 /*    margin: 0vh 0vh 0vh 1.4vh;*/
     line-height: 4.8vh;
     background-color:#e5e5e5;
+    padding-left: 4vw;
     
 }
 .flex-4f{
