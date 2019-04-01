@@ -4,6 +4,7 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import Header from './Header';
 import WhyRecruit from './why_recruit';
 import Message from './Message';
+import Footer from './footer';
 import About from './About';
 import Page from './Page';
 import Policy from './Policy';
@@ -19,6 +20,7 @@ class ForCompanies extends React.Component {
                 <Page />
                 <PastRecruiter />
                 <ReachUs />
+                <Footer />
             </div>
         )
     }

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './policies1.css';
 
 import Header from './Header';
+import Footer from './footer';
 
 class Policy extends React.Component{
 	render(){
@@ -86,6 +87,7 @@ class Policy extends React.Component{
               </p>
              </div>
              </div>
+             <Footer />
             </div>
             
               
