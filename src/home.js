@@ -4,6 +4,8 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import Header from './Header';
 import Message from './Message';
 import About from './About';
+import Footer from './footer';
+import Hiring from './hiring';
 import Page from './Page';
 import Policy from './Policy';
 import PastRecruiter from './PastRecruiter';
@@ -16,6 +18,8 @@ class App extends React.Component {
                 <Header />
                 <About />
                 <Message />
+                <Hiring />
+                <Footer/>
             </div>
         )
     }

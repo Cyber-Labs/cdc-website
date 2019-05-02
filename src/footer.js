@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './footer1.css';
+import { Link } from 'react-router-dom';
 
 class Footer extends React.Component {
 	render() {
@@ -12,18 +13,18 @@ class Footer extends React.Component {
 							<a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png" /></a>
 						</div>
 						<div>
-							<br /><br />Career Development <br />Centre,<br />IIT(ISM)Dhanbad
+							<br />Career Development <br />Centre,<br />IIT(ISM)Dhanbad
 			        </div>
 					</div>
 				</div>
 				<div className="flex-2f">
-					<div><a href="#">Home</a></div>
-					<div><a href="#">For Companies</a></div>
-					<div><a href="#">For Students</a></div>
-					<div><a href="#">For Alumni</a></div>
-					<div><a href="#">Placement Stats</a></div>
-					<div><a href="#">Policies</a></div>
-					<div><a href="#">Contact Us</a></div>
+					<div><a href="#"><Link to='/'>Home</Link></a></div>
+					<div><a href="#"><Link to='/for-companies'>For Companies</Link></a></div>
+					<div><a href="#"><Link to='/for-students'>For Students</Link></a></div>
+					<div><a href="#"><Link to='/for-alumni'>For Alumni</Link></a></div>
+					<div><a href="#"><Link to='/placement-stats'>Placement Stats</Link></a></div>
+					<div><a href="#"><Link to='/policies'>Policies</Link></a></div>
+					<div><a href="#"><Link to='/contact-us'>Contact Us</Link></a></div>
 				</div>
 				<div className="flex-3f">
 					<div className="headingquick"><b>Quick Links</b></div>
@@ -41,7 +42,6 @@ class Footer extends React.Component {
 					<div>IIT(ISM)Dhanbad</div>
 					<div>Dhanbad-826001,Jharkhand</div>
 					<div><p></p></div>
-
 					<div><p></p></div>
 					<div><b>Email</b><br /></div>
 					<div>cdc@iitism.ac.in</div>
