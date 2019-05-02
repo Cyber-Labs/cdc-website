@@ -1,5 +1,6 @@
 .paramargin{
-  margin:2vh 5vh 5vh 5vh;
+  margin:2vh 5vh 2vh 0.5vh;
+  padding-left: 0vh;
 	
 }
 
@@ -13,8 +14,11 @@
 
 .headingpolicy{
 	font-size:6vh;
-	margin:2vh 5vh 5vh 2vh;
+	margin:2vh 5vh 2vh 2vh;
 	
+}
+.padding_shift{
+	padding-left: 6.25vh;
 }
 
 
@@ -22,4 +26,11 @@
 
 li{
 	margin: 2vh 0vh;
+}
+body{
+	margin: 0vh 0vh 0vh 0vh;
+	padding-left: 0%;
+}
+ol{
+	padding-inline-start: 6.25vh;
 }
