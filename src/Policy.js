@@ -9,16 +9,15 @@ class Policy extends React.Component{
 	render(){
 		return(<div>
       <Header />
-			 <div className="p2">
+			 {/* <div className="p2">
          <div className="paramargin">
 			  Guidelines by All IIT Placement Committee(AIPC) to the recruiters..<br/>
 			  In order to have a mutual benefit and to have a long term association, the AIPC has indicated the following guidelines to the recruiters. All the recruiters are requested to kindly stick to these positively to have a smooth placement process.
 			 </div>
-     </div>
+     </div> */}
 			 <div className="p3">
         <div className="paramargin">
 			  <div className="headingpolicy">Pre-Placement:</div>
-			  <p>
 			  <ol>
 			    <li>PPOs: In order to have a mutual benefit, it is highly desirable that the status of the PPOs be informed by the last week of August. This is for students selected for intern through on campus internship hiring process by the recruiters and after successful completion of the internship.</li>
 			    <li>Short listing as well as selection criteria: If a company has any reservation to shortlist / accepts students with arrears/backlogs, the company needs to inform the same in advance in the job notification form. The company should clearly spell these criterions in the job notification form such as: active/ cleared backlogs, year gap, bond, medical fitness parameters etc.</li>
@@ -28,12 +27,12 @@ class Policy extends React.Component{
 			    <li>Time duration: The maximum time for any pre-assessment test (online or off-line) is 90 minutes. Under certain exceptional cases another 30 minutes may be considered. For a single company, a student can appear for personal interview for a maximum of two hours which must include multiple sessions along with break in between and no single session can go beyond 45 minutes.</li>
 			    <li>The placement test should be held on campus under the supervision of respective placement office. Generic tests like hackathon, code challenge, case competition, buddy session etc. will not be recognized as placement process and a company cannot recruit through these means as a part of official campus placement. </li>
               </ol>
-              </p>
               </div>
              </div>
              <div className="p4">
              <div className="paramargin">
               <div className="headingpolicy">Post-Placement:</div>
+              <section className="padding_shift">
               <div>Key information on the offers made: If a company makes offers during the placement session, the following key information may be provided along with the offer letter</div>
               <div>
               <ul>
@@ -44,12 +43,13 @@ class Policy extends React.Component{
               </div>
               <div>The offer letters should preferably be provided within two months from the date of final interview. All the offers must be sent to the concerned Placement office.</div>
               <div>All communications related to recruitment process shall be routed through the concerned placement office.</div>
+            </section>
              </div>
              </div>
              <div className="p5">
              <div className="paramargin">
-              <div className="headingpolicy">Placement/Internship Policy</div>
-              <p><div className="headingpolicy">For Company:</div>
+              <div className="headingpolicy">Placement / Internship Policy</div>
+              <div className="headingpolicy">For Company:</div>
               <ol>
                <li> CDC strictly follows the policy of single candidate single job/internship irrespective of company status (private / PSU / Government / Education sector etc.) or the CTC offered.</li>
                <li>The company must complete their selection process in a single day.</li>
@@ -60,8 +60,7 @@ class Policy extends React.Component{
                <li>The companies are required to be in constant touch with the SCPT and CDC Officials. They should not entertain any direct contact from the students appearing in the placement process. In case of such a situation, the company must bring this immediately to the notice of the placement office.</li>
                <li>PSUs & Government organizations will be invited to conduct campus placement process any time during academic session. However, placement policy for PSUs & Government organizations are same as that of others.</li>
               </ol>
-              </p>
-              <p><div className="headingpolicy">For Students:</div>
+              <div className="headingpolicy">For Students:</div>
               <ol>
                <li>Student’s eligibility for a hiring process will be decided as per company eligibility criteria.</li>
                <li>Career Development Centre (CDC) follows the policy of One-Student-One-Job1 for all the CDC assisted offers, irrespective of the company status (PSU/Private/Government/Education Sector etc.) and/or CTC offered. The policy is applicable separately for both internship2 hiring and full time hiring. </li>
@@ -84,7 +83,6 @@ class Policy extends React.Component{
                <li>Any final year student of dual degree/ integrated courses (M. Tech and MSc Tech), having been selected by a company for full time hiring through CDC, cannot further apply for 6 month internship. (This rule is applicable to the current batch graduating in 2019, only) </li>
                <li>A final year student of Dual Degree/ Integrated courses / M. Tech., having been selected for internship, is allowed to appear for full time hiring of other companies. However, if the student gets full time offer through CDC, he/she cannot appear for the PPO process of the company in which he/she is doing the internship. (This rule is applicable to the current batch graduating in 2019, only) </li>
               </ol>
-              </p>
              </div>
              </div>
              <Footer />
