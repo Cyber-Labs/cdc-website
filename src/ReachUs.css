@@ -1,3 +1,6 @@
+body{
+    width:auto;
+}
 .mainbox{
     display:flex;
     flex-direction: column;
@@ -22,6 +25,7 @@ p{
     flex-direction: row;
     justify-content: space-between;
     margin: 2vh 3vw 2vh 3vw;
+    
 }
 .sonotel{
     text-align:center;
@@ -33,4 +37,26 @@ p{
 }
 .points{
     margin-left:2vw;
+}
+@media screen and (max-width: 600px){
+.transport{
+    flex-direction: column;
+    
+}
+.hotels{
+    flex-direction: column;
+    
+}
+.byrail{
+    width:90vw;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.sonotel{
+    width:90vw;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
 }
