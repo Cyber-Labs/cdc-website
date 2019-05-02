@@ -8,9 +8,11 @@
     padding-bottom: 5vh;
     padding-left: 5vh;
     padding-right: 5vh;
+
 }
+
 .background{
-    /background-color: #d9e2ec;
+    background-color: #d9e2ec;
 }
 .background2{
     background-color: #d9e2ec;
