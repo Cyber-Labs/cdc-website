@@ -17,6 +17,7 @@
   color: white;
 }
 .flex_home{
+  text-decoration:none;
   display: flex;
   flex-direction:column;
   margin-left: 1vh;
