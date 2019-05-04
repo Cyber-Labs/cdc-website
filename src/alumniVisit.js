@@ -1,8 +1,6 @@
 import React from 'react';
 import img from './alumni.jpg';
 import './alumniVisit.css';
-//import Button from 'react-bootstrap-buttons'
-
 
 export default class AlumniVisit extends React.Component{
     render(){

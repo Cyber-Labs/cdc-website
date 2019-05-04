@@ -12,10 +12,11 @@ export default class Experience extends React.Component{
                 </div>
                 <div class="main">
                 <div class="box1">
-                    <div class="box11"><h1>Article</h1><hr /></div>
+                    <div class="box11">Article</div>
+                    <hr />
                     <div class="box2">
                         <div class="box21">
-                            <p align="left">An article from the alumnus regarding their experience with failure.</p>
+                            <p class="para">An article from the alumnus regarding their experience with failure.</p>
                             <div align="left"><button type="submit">Share</button></div>
                         </div>
                         <div class="image">
@@ -24,10 +25,11 @@ export default class Experience extends React.Component{
                     </div>
                 </div>
                 <div class="box1">
-                    <div class="box11"><h1>Video</h1><hr /></div>
+                    <div class="box11">Video</div>
+                    <hr />
                     <div class="box2">
                         <div class="box21">
-                            <p align="left">Video Clips from the alumnus regarding their experience with failure.</p>
+                            <p class="para">Video Clips from the alumnus regarding their experience with failure.</p>
                             <div align="left"><button type="submit">Share</button></div>
                         </div>
                         <div class="image">
@@ -38,7 +40,7 @@ export default class Experience extends React.Component{
                 </div>
                 <div class="text">
                 <h1>Share your contact</h1>
-                <p>To stay connected with CDC and help CDC in bringing more companies to campus.</p>
+                <p class="para">To stay connected with CDC and help CDC in bringing more companies to campus.</p>
                 </div>
                 <div align="right">
                 <button type="submit">Register</button>
