@@ -4,6 +4,7 @@ import { Route, Link, BrowserRouter as Router,Switch } from 'react-router-dom';
 import App from './home';
 import ForCompanies from './For_companies';
 import Not_found from './404_not_found';
+import Alumni from './Alumni';
 import Header from './Header';
 import Message from './Message';
 import About from './About';
@@ -18,6 +19,7 @@ const routing = (
           <Switch>
         <Route exact path="/" component={App} />
         <Route exact path="/for-companies" component={ForCompanies} />
+        <Route exact path="/for-alumni" component={Alumni} />
         <Route exact path="/policies" component={Policy} />
         <Route component = {Not_found} />
         </Switch>

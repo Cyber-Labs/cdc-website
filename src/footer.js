@@ -17,7 +17,7 @@ class Footer extends React.Component{
 				<div><Link to='/'>Home</Link></div>
 				<div><Link to='/'>For Companies</Link></div>
 				<div><Link to='/'>For students</Link></div>
-				<div><Link to='/'>For Alumini</Link></div>
+				<div><Link to='/'>For Alumni</Link></div>
 				<div><Link to='/'>Placement Stats</Link></div>
 				<div><Link to='/'>Policies</Link></div>
 
