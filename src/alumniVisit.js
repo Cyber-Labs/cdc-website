@@ -13,7 +13,7 @@ export default class AlumniVisit extends React.Component{
                     We will provide the pickup and drop facilities to and from the station. Boarding and Lodging facilities will also be looked after.</p>
                 </div>
                 <div align="right">
-                    <button type="submit">Register</button>
+                    <a href="https://forms.gle/EPRp7eQpqiEvhsb7A" target="_blank"><button type="submit">Register</button></a>
                 </div>
             </div>
         )
