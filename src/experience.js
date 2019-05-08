@@ -17,7 +17,7 @@ export default class Experience extends React.Component{
                     <div class="box2">
                         <div class="box21">
                             <p class="para">An article from the alumnus regarding their experience with failure.</p>
-                            <div align="left"><button type="submit">Share</button></div>
+                            <div align="left"><a href="https://forms.gle/i6YveP9dXhpJmA5RA" target="_blank"><button type="submit">Share</button></a></div>
                         </div>
                         <div class="image">
                         <img src={img1} class="img1" />
@@ -30,7 +30,7 @@ export default class Experience extends React.Component{
                     <div class="box2">
                         <div class="box21">
                             <p class="para">Video Clips from the alumnus regarding their experience with failure.</p>
-                            <div align="left"><button type="submit">Share</button></div>
+                            <div align="left"><a href="https://forms.gle/epqBg66RejtTTc1PA" target="_blank"><button type="submit">Share</button></a></div>
                         </div>
                         <div class="image">
                         <img src={img2} class="img1" />
@@ -43,7 +43,7 @@ export default class Experience extends React.Component{
                 <p class="para">To stay connected with CDC and help CDC in bringing more companies to campus.</p>
                 </div>
                 <div align="right">
-                <button type="submit">Register</button>
+                <a href="https://forms.gle/U8EGCkXQNGV6g5qD6" target="_blank"><button type="submit">Register</button></a>
                 </div>
             </div>
         )

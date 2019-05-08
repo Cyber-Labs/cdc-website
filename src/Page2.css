@@ -1,11 +1,11 @@
-.main{
+.mainp{
     display: flex;
     flex-direction: row;
     margin: 10vh 10vh 10vh 10vh;
     justify-content: space-between;
 
 }
-.box1{
+.box1p{
     display:flex;
     flex-direction: column;
     box-shadow: 0.8vh 1.6vh 2.88vh #888888;
@@ -13,18 +13,18 @@
     width:40vw;
     
 }
-.box11{
+.box11p{
     text-align:center;
 }
 
-.box12{
+.box12p{
     text-align: center;
     margin:2vh 2vw 2vh 2vw;
 }
 
 
 
-.box2{
+.box2p{
     display:flex;
     flex-direction: row;
     box-shadow: 0.8vh 1.6vh 2.88vh #888888; 
@@ -33,7 +33,7 @@
     position: relative;
     
 }
-.box12{
+.box12p{
     display:flex;
     flex-direction: column;}
     
@@ -55,3 +55,42 @@ button{
     bottom: 0;
     }
     
+
+@media all and (max-width: 1200px){
+    .mainp{
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 1vh 1vh 1vh;
+    justify-content: center;
+
+}
+
+.box1p{
+    display:flex;
+    flex-direction: column;
+    margin:1vh 2vw 2vh 2vw;
+    box-shadow: 0.8vh 1.6vh 2.88vh #888888;
+    
+    width:95%;
+    
+}
+
+.box2p{
+    display:flex;
+    flex-direction: row;
+    margin:1vh 2vw 2vh 2vw;
+    box-shadow: 0.8vh 1.6vh 2.88vh #888888;
+    
+    width:95%; 
+    
+    
+    position: relative;
+    
+}
+
+.btn{
+        
+    position: absolute;
+    bottom: 0;
+    }
+}
