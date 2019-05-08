@@ -85,6 +85,20 @@ class Policy extends React.Component{
               </ol>
              </div>
              </div>
+             <div className="p4">
+             <div className="paramargin">
+               <div className="headingpolicy">Definitions:</div>
+               <section className="padding_shift">
+               <b>Job</b> : Internship offer as well as full time offer<br />
+               <b>Internship</b> : Internship is project assignment given to a student by a company after selection of the candidate through proper intern hiring process and may have job prospects. Internship will be as per Institute norms. <br />
+               <b>Hiring process</b> : 'Internship' as well as 'full time' hiring process <br />
+               <b>PPO (Pre Placement Offer)</b> : A job offer given to the student by the company after internship <br />
+               <b>Returning internship</b> : Internship offer given to students by the company in which he/she is already doing internship<br />
+               <b>PPI (Pre-Placement Interview)</b> : Direct interview offer given to the students instead of PPO, where the candidate can bypass hiring process (test/GD etc.) and directly appear for the interview<br />
+               <b>SCPT</b> : Students' Coordinater Placement Team<br />
+              </section>
+               </div>
+               </div>
              <Footer />
             </div>
             
