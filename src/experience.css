@@ -32,8 +32,8 @@ hr{
 
 .box2{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     width: 40vw;
     height: 70vh;
     background-color: #F6F6F6;
