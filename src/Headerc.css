@@ -31,38 +31,33 @@
     
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#f8f8f8;
+}
+
+li {
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: #666;
-    text-align: center;
-    padding: 2vh 2vh;
-    text-decoration: none;
-    font-size: 2vh;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #ddd;
-  }
-  
-  li a.active {
-    color: white;
-    background-color: #4CAF50;
-  }
+ float: left;
+}
+
+li a {
+  display: block;
+  color: #666;;
+  text-align: center;
+  padding:0vh 2vh;
+  font-size: 2vh;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#f7f8fa;}
   .header_nav{
-    display: flex;
-    flex-flow: row nowrap;    
+    display:flex;
+    flex-direction:row;
+    flex-flow: row wrap;
   }
   body{
     margin: 0;
