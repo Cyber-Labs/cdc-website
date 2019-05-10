@@ -12,6 +12,7 @@ import Page from './Page';
 import Policy from './Policy';
 import PastRecruiter from './PastRecruiter';
 import ReachUs from './ReachUs';
+import ContactUs from './contact-us';
 
 const routing = (
     <Router>
@@ -21,6 +22,7 @@ const routing = (
         <Route exact path="/for-companies" component={ForCompanies} />
         <Route exact path="/for-alumni" component={Alumni} />
         <Route exact path="/policies" component={Policy} />
+        <Route exact path="/contact-us" component={ContactUs} />
         <Route component = {Not_found} />
         </Switch>
       </div>
