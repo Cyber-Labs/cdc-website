@@ -7,10 +7,10 @@
 }
 
 .chairman{
-    border: 2px solid #767A7B;
     width: 20vw;
-    height: 40vh;
-    background: #E3EEEE
+    height: 50vh;
+    background: #E3EEEE;
+	box-shadow: 0.8vh 1.6vh 2.88vh #888888;
 }
 
 .chairman_image{
@@ -28,4 +28,38 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+@media all and (max-width: 1200px){
+    .contact_main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: #d9e2ec;
+        font-size: 2vh;
+    }
+    
+    .chairman{
+        width: 50vw;
+        height: 50vh;
+        background: #E3EEEE;
+        box-shadow: 0.8vh 2vh 2vh #888888;
+    }
+    
+    .chairman_image{
+        width: 20vw;
+        height: 24vh;
+    }
+    
+    .vice_chairman{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .scpt{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }

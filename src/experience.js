@@ -24,6 +24,7 @@ export default class Experience extends React.Component{
                         </div>
                     </div>
                 </div>
+                <br />
                 <div class="box1">
                     <div class="box11">Video</div>
                     <hr />
