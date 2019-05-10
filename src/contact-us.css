@@ -1,0 +1,31 @@
+.contact_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #d9e2ec;
+    font-size: 2.2vh;
+}
+
+.chairman{
+    border: 2px solid #767A7B;
+    width: 20vw;
+    height: 40vh;
+    background: #E3EEEE
+}
+
+.chairman_image{
+    width: 10vw;
+    height: 24vh;
+}
+
+.vice_chairman{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.scpt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
