@@ -2,6 +2,8 @@ import React from 'react';
 import img1 from './chairman.jpg';
 import img2 from './pankajjain.jpg';
 import img3 from './sachinksingh.jpg';
+import img4 from './scpt1.jpeg';
+import img5 from './scpt2.jpeg';
 import Header from './Header';
 import Footer from './footer';
 import './contact-us.css'
@@ -50,14 +52,16 @@ export default class ContactUs extends React.Component{
                         <div class="scpt">
                         <div class="chairman">
                             <br />
-                            <div><img src={img1} alt="scpt1" class="chairman_image" /></div>
+                            <div><img src={img4} alt="scpt1" class="chairman_image" /></div>
+                            <br />
                             <br />
                             <div><b>Prithvi Singh Chauhan</b><br />Mobile: +91-8030281193</div>                           
                         </div>
                         <br />
                         <div class="chairman">
                             <br />
-                            <div><img src={img1} alt="scpt2" class="chairman_image" /></div>
+                            <div><img src={img5} alt="scpt2" class="chairman_image" /></div>
+                            <br />
                             <br />
                             <div><b>Rishabh Ranjan</b><br />Mobile: +91-9934615950</div>
                         </div>
@@ -65,6 +69,7 @@ export default class ContactUs extends React.Component{
                         <div class="chairman">
                             <br />
                             <div><img src={img1} alt="vice_cr1" class="chairman_image" /></div>
+                            <br />
                             <br />
                             <div><b>Abhinav Bajpai</b><br />Mobile: +91-8827524158</div>
                         </div>
