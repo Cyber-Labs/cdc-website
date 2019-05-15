@@ -42,8 +42,13 @@ button {
   padding: 1vh 2vw 1vh 2vw;
 }
 .btn {
-  position: absolute;
-  bottom: 0;
+  margin-top:5vh;
+}
+
+.imagepb{
+  height:100%;
+  width:100%;
+
 }
 
 @media all and (max-width: 1200px) {
@@ -53,7 +58,11 @@ button {
     margin: 1vh 1vh 1vh 1vh;
     justify-content: center;
   }
+.imagepb{
+  height:100%;
+  width:100%;
 
+}
   .box1p {
     display: flex;
     flex-direction: column;
@@ -75,7 +84,7 @@ button {
   }
 
   .btn {
-    position: absolute;
-    bottom: 0;
-  }
+  margin-top:5vh;
+}
+
 }
