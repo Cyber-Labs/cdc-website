@@ -123,8 +123,8 @@ export default class ContactUs extends React.Component {
                 <br />
                 <div>
                   <img
-                    src="assets/img/chairman.jpg"
-                    alt="vice_cr1"
+                    src="assets/img/scpt3.jpg"
+                    alt="scpt3"
                     class="chairman_image"
                   />
                 </div>
