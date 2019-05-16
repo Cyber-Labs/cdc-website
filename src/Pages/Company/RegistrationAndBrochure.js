@@ -48,16 +48,14 @@ class RegistrationAndBrochure extends React.Component {
                 <br />
                 <a href="#">Registration Portal(HL)</a>
               </div>
-              <div align="middle">
-                <button class="btn" type="submit">
+              <div class="btn" align="middle">
+                <button type="submit" >
                   Download
                 </button>
               </div>
             </div>
             <div class="box22p">
-              <div class="image">
-                <img src="" />
-              </div>
+                <img src="assets/img/placementbrochure.jpg" class="imagepb" />
             </div>
           </div>
         </div>
