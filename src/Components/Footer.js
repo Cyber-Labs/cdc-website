@@ -14,11 +14,12 @@ class Footer extends React.Component{
 				</div>
 				<div className="flex_home">
 				<div><Link to='/'>Home</Link></div>
-				<div><Link to='/'>For Companies</Link></div>
-				<div><Link to='/'>For students</Link></div>
-				<div><Link to='/'>For Alumni</Link></div>
-				<div><Link to='/'>Placement Stats</Link></div>
-				<div><Link to='/'>Policies</Link></div>
+				<div><Link to='/for-companies'>For Companies</Link></div>
+				<div><Link to='/for-students'>For students</Link></div>
+				<div><Link to='/for-alumni'>For Alumni</Link></div>
+				<div><Link to='/policies'>Policies</Link></div>
+				<div><Link to='/placement-stats'>Placement Stats</Link></div>
+				<div><Link to="/contact-us">Contact Us</Link></div>
 
 				</div>
 				</div>
