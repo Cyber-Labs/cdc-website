@@ -49,9 +49,11 @@ class RegistrationAndBrochure extends React.Component {
                 <a href="#">Registration Portal(HL)</a>
               </div>
               <div class="btn" align="middle">
+                <a href="https://www.iitism.ac.in/pdfs/tnp/Placement-Brochure.pdf" target="_blank">
                 <button type="submit" >
                   Download
                 </button>
+                </a>
               </div>
             </div>
             <div class="box22p">
