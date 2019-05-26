@@ -7,8 +7,8 @@ class Message extends React.Component {
       <div>
         <div class="flex-container3">
           <div class="message-text">
-            <h1 class="h">Message from the Director</h1>
-            <p>
+            <h1>Message from the Director</h1>
+            <div>
               Indian Institute of Technology(Indian School Of Mines) Dhanbad is
               one of the most reputed universities for technological education
               and research in India. From its inception in 1926 the school had a
@@ -21,7 +21,7 @@ class Message extends React.Component {
               Career Development Cell is the nodal point of contact for
               comapnies seeking to establish a constructive relationship with
               IIT(ISM).{" "}
-            </p>
+            </div>
           </div>
           <div class="img2">
             <img src="assets/img/maxresdefault.jpg" class="image2" />

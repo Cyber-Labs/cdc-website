@@ -25,6 +25,7 @@
 
   padding-left: 5vh;
   padding-right: 5vh;
+  margin-bottom:3vh;
 }
 @media all and (max-width: 600px) {
   .flex-container3 {

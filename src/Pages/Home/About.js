@@ -10,7 +10,7 @@ class About extends React.Component {
         </div>
         <div class="about-text">
           <h1>About IIT(ISM),Dhanbad</h1>
-          <p>
+          <div>
             Indian Institute of Technology(Indian School Of Mines) Dhanbad
             formerly known as ISM Dhanbad was set up by the Government of India
             and was formally Inaugrated by his Excellency the Viceroy Lord Irvin
@@ -25,7 +25,7 @@ class About extends React.Component {
             Integrated M.Sc.Tech, M.tech, M.Phil and MBA. In addition the
             institute offers full as well as part time Ph.D programmes and
             Post-Doctoral Fellowship(PDF).{" "}
-          </p>
+          </div>
         </div>
       </div>
     );
