@@ -56,6 +56,7 @@ class ReachUs extends React.Component {
                 The distance between hotel and our Institute is around 7KM.
               </p>
             </div>
+            <br />
             <div class="sonotel">
               <h1>The Seventeen Degrees Hotel</h1>
               <p>
@@ -84,6 +85,7 @@ class ReachUs extends React.Component {
                 The distance between hotel and our Institute is around 5KM.
               </p>
             </div>
+            <br />
             <div class="sonotel">
               <h1>Hotel Sushant International</h1>
               <p>

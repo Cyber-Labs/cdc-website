@@ -49,7 +49,6 @@ button{
 .box{
 	margin:auto;
 	box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
-	background-color: #f7f8fa;
 }
 @media all and (max-width:500px)
 {
@@ -59,7 +58,6 @@ button{
 	}
 	.box{
 	box-shadow: 0.8vh 2vh 2vh #888888;
-	background-color: #f7f8fa;
 
     }
 	.flexd{

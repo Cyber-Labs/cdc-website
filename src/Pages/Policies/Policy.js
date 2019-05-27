@@ -329,5 +329,4 @@ class Policy extends React.Component {
     );
   }
 }
-
 export default Policy;
