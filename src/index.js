@@ -12,8 +12,7 @@ import ContactUs from "./Pages/ContactUs/ContactUs";
 
 const routing = (
   <Router>
-    <div>
-      <a name="top" />
+    <div id="/">
       <Header />
       <Switch>
         <Route exact path="/" component={App} />
