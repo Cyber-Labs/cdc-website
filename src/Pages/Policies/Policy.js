@@ -65,32 +65,29 @@ class Policy extends React.Component {
         <div className="p4">
           <div className="paramargin">
             <div className="headingpolicy">Post-Placement:</div>
-            <section className="padding_shift">
-              <div>
+              <ol>
+               <li>
                 Key information on the offers made: If a company makes offers
                 during the placement session, the following key information may
-                be provided along with the offer letter
-              </div>
-              <div>
-                <ul>
-                  <li>
-                    The details on the salary structure (including take-home
-                    salary) based on the CTC{" "}
-                  </li>
-                  <li>Joining location</li>
-                  <li>Date of joining</li>
-                </ul>
-              </div>
-              <div>
+                be provided along with the offer letter<br/>
+                 
+                  (a) The details on the salary structure (including take-home
+                  salary) based on the CTC.<br/>
+                  (b) Joining location<br/>
+                  (c) Date of joining
+                </li>
+              
+              <li>
                 The offer letters should preferably be provided within two
                 months from the date of final interview. All the offers must be
                 sent to the concerned Placement office.
-              </div>
-              <div>
+              </li>
+              <li>
                 All communications related to recruitment process shall be
                 routed through the concerned placement office.
-              </div>
-            </section>
+              </li>
+            </ol>
+          
           </div>
         </div>
         <div className="p5">
@@ -295,7 +292,7 @@ class Policy extends React.Component {
         <div className="p4">
           <div className="paramargin">
             <div className="headingpolicy">Definitions:</div>
-            <section className="padding_shift">
+              <div className="def">
               <b>Job</b> : Internship offer as well as full time offer
               <br />
               <b>Internship</b> : Internship is project assignment given to a
@@ -316,7 +313,7 @@ class Policy extends React.Component {
               <br />
               <b>SCPT</b> : Students' Coordinater Placement Team
               <br />
-            </section>
+           </div> 
           </div>
         </div>
       </div>
