@@ -6,12 +6,6 @@ class Policy extends React.Component {
   render() {
     return (
       <div>
-        {/* <div className="p2">
-         <div className="paramargin">
-			  Guidelines by All IIT Placement Committee(AIPC) to the recruiters..<br/>
-			  In order to have a mutual benefit and to have a long term association, the AIPC has indicated the following guidelines to the recruiters. All the recruiters are requested to kindly stick to these positively to have a smooth placement process.
-			 </div>
-     </div> */}
         <div className="p3">
           <div className="paramargin">
             <div className="headingpolicy">Pre-Placement:</div>
@@ -158,7 +152,7 @@ class Policy extends React.Component {
                 are same as that of others.
               </li>
             </ol>
-            <div className="headingpolicy">For Students:</div>
+            <div className="headingpolicy"><br />For Students:</div>
             <ol>
               <li>
                 Student’s eligibility for a hiring process will be decided as
