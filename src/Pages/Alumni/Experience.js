@@ -5,7 +5,7 @@ export default class Experience extends React.Component {
   render() {
     return (
       <div>
-        <div class="text">
+        <div class="textt">
           <h1>Share your Experience from failures</h1>
         </div>
         <div class="main">
@@ -51,7 +51,7 @@ export default class Experience extends React.Component {
             </div>
           </div>
         </div>
-        <div class="text">
+        <div class="textt">
           <h1>Share your contact</h1>
           <p class="para">
             To stay connected with CDC and help CDC in bringing more companies
