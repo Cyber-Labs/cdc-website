@@ -13,6 +13,7 @@ import ContactUs from "./Pages/ContactUs/ContactUs";
 const routing = (
   <Router>
     <div>
+      <a name="top" />
       <Header />
       <Switch>
         <Route exact path="/" component={App} />

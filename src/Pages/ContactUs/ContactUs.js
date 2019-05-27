@@ -9,6 +9,7 @@ export default class ContactUs extends React.Component {
         <div class="contact_main">
           <div align="center">
             <div>
+              <a name="cr1" />
               <h1>Chairman</h1>
             </div>
             <div class="chairman">

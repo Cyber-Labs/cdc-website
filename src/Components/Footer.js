@@ -13,13 +13,13 @@ class Footer extends React.Component{
 				 <div class="cdc">Career Development <br/>Centre,<br/>IIT(ISM)Dhanbad</div>
 				</div>
 				<div className="flex_home">
-				<div><Link to='/'>Home</Link></div>
-				<div><Link to='/for-companies'>For Companies</Link></div>
-				<div><Link to='/for-students'>For students</Link></div>
-				<div><Link to='/for-alumni'>For Alumni</Link></div>
-				<div><Link to='/policies'>Policies</Link></div>
-				<div><Link to='/placement-stats'>Placement Stats</Link></div>
-				<div><Link to="/contact-us">Contact Us</Link></div>
+				<div><a href='/#top'>Home</a></div>
+				<div><a href='/for-companies#top'>For Companies</a></div>
+				<div><a href='/for-students#top'>For students</a></div>
+				<div><a href='/for-alumni#top'>For Alumni</a></div>
+				<div><a href='/policies#top'>Policies</a></div>
+				<div><a href='/placement-stats#top'>Placement Stats</a></div>
+				<div><a href="/contact-us#top">Contact Us</a></div>
 
 				</div>
 				</div>
@@ -28,8 +28,8 @@ class Footer extends React.Component{
 				<div><a href="#">Registration Portal</a></div>
 				<div><a href="#">AIPC Guidelines</a></div>
 				<div><a href="#">Brochure</a></div>
-				<div><Link to='/contact-us'>Contact Chairman</Link></div>
-				<div><Link to='/contact-us'>Contact CDC Office</Link></div></div>
+				<div><a href='/contact-us#cr1'>Contact Chairman</a></div>
+				<div><a href='/contact-us#top'>Contact CDC Office</a></div></div>
 				<div className="flex_downloads">
 					<div><b>Downloads</b></div>
 					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download1</a></div>
