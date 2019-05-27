@@ -9,8 +9,8 @@ class Footer extends React.Component{
 			<div className="main_flex">
 			 <div className="flex_abcd">
 				<div className="flex_image">
-				 <div><a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png"/></a></div>
-				 <div><br/><br/> Career Development <br/>Centre,<br/>IIT(ISM)Dhanbad</div>
+				 <div class="iitismimg"><a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png"/></a></div>
+				 <div class="cdc">Career Development <br/>Centre,<br/>IIT(ISM)Dhanbad</div>
 				</div>
 				<div className="flex_home">
 				<div><Link to='/'>Home</Link></div>
@@ -24,11 +24,21 @@ class Footer extends React.Component{
 				</div>
 				</div>
 				<div className="flex_quicklinks">
-				<div>Quick Link 1</div>
-				<div>Quick Link 2</div>
-				<div>Quick Link 3</div>
-				<div>Quick Link 4</div>
-				<div>Quick Link 5</div></div>
+				<div><b>Quick Links</b></div>
+				<div><a href="#">Registration Portal</a></div>
+				<div><a href="#">AIPC Guidelines</a></div>
+				<div><a href="#">Brochure</a></div>
+				<div><Link to='/contact-us'>Contact Chairman</Link></div>
+				<div><Link to='/contact-us'>Contact CDC Office</Link></div></div>
+				<div className="flex_downloads">
+					<div><b>Downloads</b></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download1</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download2</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download3</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download4</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download5</a></div>
+				 </div>
+
 				<div className="flex_contacts">
 				 <div className="flex_address">
 				  <div>Career Development Centre,</div>

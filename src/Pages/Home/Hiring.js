@@ -8,27 +8,32 @@ class Hiring extends React.Component {
         <div className="box">
           <div className="flexd">
             <div align="middle" className="heading">
-              <p>
+              <div>
+                <br />
                 <b>For hiring of FTEs/Interns(2/6 months)</b>
-              </p>
+              <br />
               <hr />
+              <br />
+              </div>
+          
             </div>
             <div className="flexlink">
-              <div>
+              <div id="link">
                 <a href="#">Internship Calender</a>
               </div>
-              <div>
+              <div id="link">
                 <a href="#">Placement Calender</a>
               </div>
             </div>
 
-            <div align="middle">
+            <br />
+            <div class="hiring_text">
               The Preplacement Talks will be commencing from 1st weeek of
-              october
+              October.
             </div>
-            <div align="middle">
+            <div class="hiring_text">
               The recruitment season will start from 1st of December and the
-              process will continue upto May 2019
+              process will continue upto May 2019.
             </div>
             <div>
               <p />

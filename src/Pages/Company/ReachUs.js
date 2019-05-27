@@ -34,7 +34,7 @@ class ReachUs extends React.Component {
             </div>
           </div>
           <div class="boarding">
-            Boarding Facilities:
+            <b>Boarding Facilities:</b>
             <br />
             AC accomodation is provided inside the campus(Executive Development
             Centre/Senior Academic Hostel) on twin sharing basis(If Available).
@@ -98,14 +98,14 @@ class ReachUs extends React.Component {
             </div>
           </div>
           <div class="boarding">
-            Executive Development Centre
+            <b>Executive Development Centre</b>
             <br />
             The recruitment process is carried out in Executive Development
             Center which is located opposite to the Senior Academic Hostel. It
             is about 200m from the main gate.
             <br />
             <br />
-            Facilities at the Placement Office
+            <b>Facilities at the Placement Office</b>
             <br />
             The placement office is well equipped and is designed to smoothly
             handle and support the placement procedure at every stage.
