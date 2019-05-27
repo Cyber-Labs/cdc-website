@@ -32,11 +32,11 @@ class Footer extends React.Component{
 				<div><Link to='/contact-us#/'>Contact CDC Office</Link></div></div>
 				<div className="flex_downloads">
 					<div><b>Downloads</b></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download1</a></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download2</a></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download3</a></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download4</a></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" download>Download5</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank">Download1</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank">Download2</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank">Download3</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank">Download4</a></div>
+					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank">Download5</a></div>
 				 </div>
 
 				<div className="flex_contacts">
