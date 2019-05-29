@@ -1,5 +1,8 @@
 import React from "react";
 import "./RegistrationAndBrochure.css";
+import ITable from "../Home/ITable";
+import PTable from "../Home/PTable";
+import Popup from "reactjs-popup";
 
 class RegistrationAndBrochure extends React.Component {
   render() {
@@ -43,11 +46,6 @@ class RegistrationAndBrochure extends React.Component {
                 <h1>Placement Brochure</h1>
                 <hr />
               </div>
-              <div align="middle">
-                <a href="#">Internship Calendar(HL)</a>
-                <br />
-                <a href="#">Registration Portal(HL)</a>
-              </div>
               <div class="btn" align="middle">
                 <a href="https://www.iitism.ac.in/pdfs/tnp/Placement-Brochure.pdf" target="_blank">
                 <button type="submit" >
@@ -55,6 +53,16 @@ class RegistrationAndBrochure extends React.Component {
                 </button>
                 </a>
               </div>
+              <div align="middle">
+              <Popup trigger={<button> Internship Calendar</button>} position="bottom center">
+                  <div><ITable/></div>
+              </Popup>
+              <Popup trigger={<button> Placement Calendar</button>} position="bottom center">
+                  <div><PTable/></div>
+              </Popup>
+                </div>
+              
+              
             </div>
             <div class="box22p">
                 <img src="assets/img/placementbrochure.jpg" class="imagepb" />

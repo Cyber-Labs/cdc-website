@@ -1,5 +1,7 @@
 import React from "react";
 import "./Hiring.css";
+import ITable from "./ITable"
+import PTable from "./PTable"
 
 class Hiring extends React.Component {
   render() {
@@ -18,11 +20,13 @@ class Hiring extends React.Component {
           
             </div>
             <div className="flexlink">
-              <div id="link">
-                <a href="#">Internship Calender</a>
+              <div align="middle">
+                Internship Calender
+                <ITable />
               </div>
-              <div id="link">
-                <a href="#">Placement Calender</a>
+              <div align="middle">
+                Placement Calender
+                <PTable/>
               </div>
             </div>
 
