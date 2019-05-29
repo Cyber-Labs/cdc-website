@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hiring.css";
+import { HashLink as Link } from 'react-router-hash-link';
 import ITable from "./ITable"
 import PTable from "./PTable"
 
@@ -21,11 +22,11 @@ class Hiring extends React.Component {
             </div>
             <div className="flexlink">
               <div align="middle">
-                Internship Calender
+                <Link to='/dummylink#/'>Internship Calender</Link>
                 <ITable />
               </div>
-              <div align="middle">
-                Placement Calender
+              <div align="middle" class="pcal">
+                <Link to='/dummylink#/'>Placement Calender</Link>
                 <PTable/>
               </div>
             </div>
