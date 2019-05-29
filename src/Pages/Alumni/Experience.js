@@ -53,10 +53,10 @@ export default class Experience extends React.Component {
         </div>
         <div class="textt">
           <h1>Share your contact</h1>
-          <p class="para">
+          <div>
             To stay connected with CDC and help CDC in bringing more companies
             to campus.
-          </p>
+          </div>
         </div>
         <div align="right">
           <a href="https://forms.gle/U8EGCkXQNGV6g5qD6" target="_blank">

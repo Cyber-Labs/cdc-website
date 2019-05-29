@@ -16,7 +16,9 @@
   text-align: center;
   font-size: 2.2vh;
 }
-
+.popup{
+  width:10vw;
+}
 .box12p {
   text-align: center;
   margin: 2vh 2vw 2vh 2vw;
@@ -46,7 +48,8 @@ button {
   padding: 1vh 2vw 1vh 2vw;
 }
 .btn {
-  margin-top:5vh;
+  margin-top:3vh;
+  margin-bottom:2vh;
 }
 
 .imagepb{

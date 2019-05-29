@@ -10,13 +10,13 @@ export default class AlumniVisit extends React.Component {
         </div>
         <div class="visit-text">
           <h1>Tell us about your Visit to Dhanbad</h1>
-          <p>
+          <div>
             Let us know about your visit to Dhanbad and we will arrange
             interaction.
             <br />
             We will provide the pickup and drop facilities to and from the
             station. Boarding and Lodging facilities will also be looked after.
-          </p>
+          </div>
         </div>
         <div align="right">
           <a href="https://forms.gle/EPRp7eQpqiEvhsb7A" target="_blank">
