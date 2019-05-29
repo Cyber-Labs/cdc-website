@@ -21,11 +21,11 @@ class Hiring extends React.Component {
             </div>
             <div className="flexlink">
               <div align="middle">
-                Internship Calender
+                <a href="#">Internship Calender</a>
                 <ITable />
               </div>
-              <div align="middle">
-                Placement Calender
+              <div align="middle" class="pcal">
+                <a href="#">Placement Calender</a>
                 <PTable/>
               </div>
             </div>
