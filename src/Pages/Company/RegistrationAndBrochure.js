@@ -3,6 +3,7 @@ import "./RegistrationAndBrochure.css";
 import ITable from "../Home/ITable";
 import PTable from "../Home/PTable";
 import Popup from "reactjs-popup";
+import { HashLink as Link } from 'react-router-hash-link';
 
 class RegistrationAndBrochure extends React.Component {
   render() {
@@ -37,7 +38,7 @@ class RegistrationAndBrochure extends React.Component {
               </div>
             </div>
             <div align="middle">
-              <button type="submit">Register</button>
+              <Link to='/dummylink#/'><button type="submit">Register</button></Link>
             </div>
           </div>
           <div class="box2p">
