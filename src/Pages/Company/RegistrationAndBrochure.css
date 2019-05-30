@@ -1,0 +1,100 @@
+.mainp {
+  display: flex;
+  flex-direction: row;
+  margin: 10vh 10vh 10vh 10vh;
+  justify-content: space-between;
+  font-size: 2.2vh;
+  
+}
+.box1p {
+  display: flex;
+  flex-direction: column;
+  box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
+  font-size: 2.2vh;
+  width: 40vw;
+}
+.box11p {
+  text-align: center;
+  font-size: 2.2vh;
+}
+.popup{
+  width:10vw;
+}
+.box12p {
+  text-align: center;
+  margin: 2vh 2vw 2vh 2vw;
+  font-size: 2.2vh;
+}
+
+.box2p {
+  display: flex;
+  flex-direction: row;
+  box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
+  font-size: 2.2vh;
+  width: 40vw;
+  position: relative;
+}
+.box12p {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.2vh;
+}
+
+button {
+  background-color: #4e4e4e;
+  color: white;
+  margin-bottom: 1vh;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 2.5vh;
+  padding: 1vh 2vw 1vh 2vw;
+}
+.btn {
+  margin-top:3vh;
+  margin-bottom:2vh;
+}
+
+.imagepb{
+  height:100%;
+  width:100%;
+
+}
+
+@media all and (max-width: 1200px) {
+  .mainp {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 1vh 1vh 1vh;
+    justify-content: center;
+    font-size: 2vh;
+  }
+.imagepb{
+  height:100%;
+  width:100%;
+
+}
+  .box1p {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 2vw 2vh 2vw;
+    box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
+    font-size: 2vh;
+    width: 95%;
+  }
+
+  .box2p {
+    display: flex;
+    flex-direction: row;
+    margin: 1vh 2vw 2vh 2vw;
+    box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
+    font-size: 2vh;
+
+    width: 95%;
+
+    position: relative;
+  }
+
+  .btn {
+  margin-top:5vh;
+}
+
+}

@@ -1,0 +1,133 @@
+.main_flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+ 
+}
+
+.cdc{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: 2.4vh;
+}
+
+/*a:hover{
+  color: #484849;
+}
+
+a{
+  color: #656566;
+}
+
+a:visited{
+  color: #7C7C80;
+}
+*/
+.flex_image{
+  display:flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  background-color: #333841;
+  color: white;
+  width: 20vw;
+}
+.flex_home{
+  text-decoration:none;
+  display: flex;
+  flex-direction:column;
+  margin-left: 1vh;
+  font-size: 2.2vh;
+  float: center;
+  background-color: #f8f8f8;
+  padding-top: 1vh;
+  color: black;
+
+}
+.flex_quicklinks{
+  display: flex;
+  flex-direction:column;
+  font-size: 2.2vh;
+  background-color: #f8f8f8;
+  margin-top: 2.5vh;
+}
+.flex_downloads{
+  display: flex;
+  flex-direction: column;
+  font-size: 2.2vh;
+
+  background-color: #f8f8f8;
+  margin-top: 2.5vh;
+}
+.flex_contacts{
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  padding-top: 1vh;
+  font-size: 2.2vh;
+  padding-right: 1vh;
+  align-items: space-between;
+}
+
+.flex_address{
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 0vh;
+  font-size: 2.2vh;
+  text-align: right;
+}
+.flex_email{
+  display: flex;
+  flex-direction: column;
+  margin: 1vh 0vh;
+  font-size: 2.2vh;
+
+  text-align: right;
+}
+.flex_abcd{
+  display:flex;
+  flex-direction: row;
+}
+@media all and (max-width: 1200px) {
+    .cdc{
+      font-size: 2.2vh;
+    }
+    .flex_image{
+      width: 80vw;
+    }
+   .main_flex{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+   }
+   .flex_home{
+     text-align: left;
+     font-size: 2vh;
+   }
+   .flex_quicklinks{
+    text-align: center;
+    font-size: 2vh;
+     }
+   .flex_contacts{
+     text-align: center;
+     font-size: 2vh;
+   }
+   .flex_downloads{
+     text-align: center;
+     font-size: 2vh;
+   }
+   .flex_address , .flex_email{
+     text-align: center;
+     font-size: 2vh;
+   }
+    @media all and (min-width: 700px){
+      .flex_image{
+        width: 80vw;
+      }
+      .flex_home{
+        margin-left: 5vh;
+      }
+    } 
+}

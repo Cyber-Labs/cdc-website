@@ -1,0 +1,85 @@
+body{
+	font-family:'Open Sans';
+}
+.main {
+  display: flex;
+  justify-content: center; 
+}
+
+.flexd{
+	display:flex;
+	flex-direction:column;
+}
+.flexlink{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 2vh 4vh 2vh 4vh;
+	font-size: 2.2vh;
+}
+
+.hiring_text{
+	text-align: center;
+	font-size: 2.2vh;
+}
+
+#link:hover{
+	color: #0B0B79;
+}
+
+#link{
+	color: #233ADF;
+}
+
+#link:visited{
+	color: #78148A;
+}
+
+button{
+	background-color:#fdb132;
+	border-radius:0.8vh;
+	border-color:none;
+	color:white;
+	font-size:3.2vh;
+	cursor:pointer;
+}
+.heading{
+	font-size:4.8vh;
+}
+.box{
+	margin:auto;
+	box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
+}
+@media all and (max-width:500px)
+{
+	.main{
+		display: flex;
+        justify-content: flex-start;
+	}
+	.box{
+	box-shadow: 0.8vh 2vh 2vh #888888;
+
+    }
+	.flexd{
+	    display: flex;
+     	flex-flow: column wrap;
+     	align-items: center;
+     	width: 100%;
+     }
+     .heading{
+	font-size:3vh;
+     }
+    .flexlink{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	font-size:2vh;
+	}
+	.hiring_text{
+		text-align: center;
+		font-size: 2vh;
+	}	
+	.pcal{
+		margin-top:3vh;
+	}
+}

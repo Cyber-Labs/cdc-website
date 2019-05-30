@@ -1,0 +1,1 @@
+import React from "react";import { Link } from "react-router-dom";const DummyLink = () => {  return (    <div>      <h1>This is a dummy link/button.Real link/button will replace this when data will be available</h1>      <Link to="/">GO Back to The Home Page</Link>    </div>  );};export default DummyLink;
