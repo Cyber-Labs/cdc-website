@@ -16,7 +16,6 @@ class Hiring extends React.Component {
                 <b>For hiring of FTEs/Interns(2/6 months)</b>
               <br />
               <hr />
-              <br />
               </div>
           
             </div>
