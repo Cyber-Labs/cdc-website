@@ -22,11 +22,11 @@ class Hiring extends React.Component {
             </div>
             <div className="flexlink">
               <div align="middle">
-                <Link to='/dummylink#/'>Internship Calender</Link>
-                <ITable />
+              Internship Calender
+               <ITable />
               </div>
               <div align="middle" class="pcal">
-                <Link to='/dummylink#/'>Placement Calender</Link>
+                Placement Calender
                 <PTable/>
               </div>
             </div>
@@ -44,7 +44,7 @@ class Hiring extends React.Component {
               <p />
             </div>
             <div align="middle">
-              <button type="submit">Register</button>
+              <Link to='/dummylink#/'><button type="submit">Register</button></Link>
               <p />
             </div>
           </div>

@@ -113,20 +113,15 @@ class ReachUs extends React.Component {
             handle and support the placement procedure at every stage.
             Arrangements for pre-placement talks, group discussions and
             interviews are handled by the staff at the placement office. We are
-            equipped with the following facilities to aid the process:
-            <br />
-            <div class="points">
-              Well furnished, air-conditioned rooms for interviews and group
-              discussions.
-              <br />
-              Auditoriums close to the office to conduct pre-placement talks and
-              tests.
-              <br />
-              Video conferencing facility for conducting interviews.
-              <br />
-              Student placement volunteers to assist on the day of visit and
-              through the selection process.
-            </div>
+            equipped with the following facilities to aid the process:<br/>
+              (a)Well furnished, air-conditioned rooms for interviews and group
+              discussions.<br />
+              (b)Auditoriums close to the office to conduct pre-placement talks and
+              tests.<br />
+              (c)Video conferencing facility for conducting interviews.<br />
+              (d)Student placement volunteers to assist on the day of visit and
+              through the selection process.<br />
+            
           </div>
         </div>
       </div>
