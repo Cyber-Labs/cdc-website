@@ -5,28 +5,28 @@ import "./Header.css";
 class Header extends React.Component {
   render() {
     return (
-      <div>
+      <div className="sticky" >
         {" "}
-        <div class="flex-container">
-          <div class="image">
+        <div className="flex-container">
+          <div className="image">
             {" "}
             <a href="https://www.iitism.ac.in/" target="_blank">
               <img
-                class="img"
+                className="img"
                 src="https://www.iitism.ac.in/assets/img/ismlogo.png"
               />
             </a>
           </div>
-          <div class="flex-container2">
-            <div class="L1">Career Development Cell</div>
-            <div class="L2">
+          <div className="flex-container2">
+            <div className="L1">Career Development Cell</div>
+            <div className="L2">
               Indian Institute Of Technology(Indian School Of Mines) Dhanbad
             </div>
           </div>
         </div>
         <div>
           <nav>
-            <ul class="header_nav">
+            <ul className="header_nav">
               <li>
                 <Link to="/">Home</Link>
               </li>

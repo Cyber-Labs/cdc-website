@@ -24,18 +24,18 @@ class Hiring extends React.Component {
               Internship Calender
                <ITable />
               </div>
-              <div align="middle" class="pcal">
+              <div align="middle" className="pcal">
                 Placement Calender
                 <PTable/>
               </div>
             </div>
 
             <br />
-            <div class="hiring_text">
+            <div className="hiring_text">
               The Preplacement Talks will be commencing from 1st weeek of
               October.
             </div>
-            <div class="hiring_text">
+            <div className="hiring_text">
               The recruitment season will start from 1st of December and the
               process will continue upto May 2019.
             </div>

@@ -4,11 +4,11 @@ import "./About.css";
 class About extends React.Component {
   render() {
     return (
-      <div class="background">
+      <div className="background">
         <div>
-          <img src="assets/img/Campus.jpeg" class="image3" />
+          <img src="assets/img/Campus.jpeg" className="image3" />
         </div>
-        <div class="about-text">
+        <div className="about-text">
           <h1>About IIT(ISM),Dhanbad</h1>
           <div>
             Indian Institute of Technology(Indian School Of Mines) Dhanbad

@@ -9,13 +9,13 @@ class RegistrationAndBrochure extends React.Component {
   render() {
     return (
       <div>
-        <div class="mainp">
-          <div class="box1p">
-            <div class="box11p">
+        <div className="mainp">
+          <div className="box1p">
+            <div className="box11p">
               <h1>Registration</h1>
               <hr />
             </div>
-            <div class="box12p">
+            <div className="box12p">
               <div>
                 <p>
                   The Training & Placement Cell invites Companies to visit
@@ -44,13 +44,13 @@ class RegistrationAndBrochure extends React.Component {
             </div>
 
           </div>
-          <div class="box2p">
-            <div class="box21p">
-              <div class="box11p">
+          <div className="box2p">
+            <div className="box21p">
+              <div className="box11p">
                 <h1>Placement Brochure</h1>
                 <hr />
               </div>
-              <div class="btn" align="middle">
+              <div className="btn" align="middle">
                 <a href="https://www.iitism.ac.in/pdfs/tnp/Placement-Brochure.pdf" target="_blank">
                 <button type="submit" >
                   Download
@@ -68,8 +68,8 @@ class RegistrationAndBrochure extends React.Component {
               
               
             </div>
-            <div class="box22p">
-                <img src="assets/img/placementbrochure.jpg" class="imagepb" />
+            <div className="box22p">
+                <img src="assets/img/placementbrochure.jpg" className="imagepb" />
             </div>
           </div>
         </div>
