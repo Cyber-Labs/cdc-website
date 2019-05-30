@@ -5,18 +5,16 @@ class ReachUs extends React.Component {
   render() {
     return (
       <div>
-        <h1 class="heading">Reach Us</h1>
+        <h1 align="middle"><b>Reach Us</b></h1>
         <div class="mainbox">
           <div class="transport">
             <div class="byrail">
               <h1>By Rail</h1>
               <p>
-                Dhanbad Junction station code DHN is headquarters of the Dhanbad
-                Rail Division of the East Central Taiyari Railway zone. It is
-                the largest railway station in Jharkhand,handling over 100
-                trains and 100,000+ passengers everyday. As one of the largest
-                and busiest railway junctions, it has direct trains from all
-                major cities of the country.
+                Dhanbad Junction station code DHN is headquarters of the Dhanbad Rail Division of the East Central Taiyari Railway zone.
+                It is the largest railway station in Jharkhand,handling over 100 trains and 100,000+ passengers everyday. 
+                As one of the largest and busiest railway junctions, it has direct trains from all major cities of the country.<br/>
+                <b>Distance of campus</b> from Railway station: <b>3 km</b>.
               </p>
             </div>
             <div class="byrail">
@@ -41,40 +39,10 @@ class ReachUs extends React.Component {
             Other Hotels near to ISM where Accomodation is available are given
             below{" "}
           </div>
+          
           <div class="hotels">
             <div class="sonotel">
-              <h1>Hotel Skylark(Three Star)</h1>
-              <p>
-                Contact Details: 0326-2305384, 2305121, 2300682
-                <br />
-                Fax No: 0326-2307772
-                <br />
-                Email: skylarkhotels@johaigroup.com
-                <br />
-                The hotel is approximately 4KM from railway station.
-                <br />
-                The distance between hotel and our Institute is around 7KM.
-              </p>
-            </div>
-            <br />
-            <div class="sonotel">
-              <h1>The Seventeen Degrees Hotel</h1>
-              <p>
-                Contact Details: 0326-2303869/2304602, 9234669201, 9234669205
-                <br />
-                Fax: 0326-2308499,
-                <br />
-                Email: 17degreeshotel@gmail.com
-                <br />
-                The hotel is approximately 5KM from railway station.
-                <br />
-                The distance between hotel and our Institute is around 8KM.
-              </p>
-            </div>
-          </div>
-          <div class="hotels">
-            <div class="sonotel">
-              <h1>Sonotel Hotel</h1>
+              <h1>Sonotel Hotel(3 Star)</h1>
               <p>
                 Contact details: +91 326 220 2222,220 3333,220 4444
                 <br />
@@ -87,7 +55,7 @@ class ReachUs extends React.Component {
             </div>
             <br />
             <div class="sonotel">
-              <h1>Hotel Sushant International</h1>
+              <h1>Hotel Cocoon(3 Star)</h1>
               <p>
                 Contact details: 0326 2313-300/500/700, 0326-2220-100/200/300
                 <br />
@@ -99,8 +67,41 @@ class ReachUs extends React.Component {
               </p>
             </div>
           </div>
+          <div class="hotels">
+            <div class="sonotel">
+            <h1>The Seventeen Degrees Hotel</h1>
+              <p>
+                Contact Details: 0326-2303869/2304602, 9234669201, 9234669205
+                <br />
+                Fax: 0326-2308499,
+                <br />
+                Email: 17degreeshotel@gmail.com
+                <br />
+                The hotel is approximately 5KM from railway station.
+                <br />
+                The distance between hotel and our Institute is around 8KM.
+              </p>
+              
+            </div>
+            <br />
+            <div class="sonotel">
+            <h1>Hotel Skylark</h1>
+              <p>
+                Contact Details: 0326-2305384, 2305121, 2300682
+                <br />
+                Fax No: 0326-2307772
+                <br />
+                Email: skylarkhotels@johaigroup.com
+                <br />
+                The hotel is approximately 4KM from railway station.
+                <br />
+                The distance between hotel and our Institute is around 7KM.
+              </p>
+              
+            </div>
+          </div>
           <div class="boarding">
-            <b>Executive Development Centre</b>
+            <b>Executive Development Centre(EDC)</b>
             <br />
             The recruitment process is carried out in Executive Development
             Center which is located opposite to the Senior Academic Hostel. It
@@ -114,12 +115,12 @@ class ReachUs extends React.Component {
             Arrangements for pre-placement talks, group discussions and
             interviews are handled by the staff at the placement office. We are
             equipped with the following facilities to aid the process:<br/>
-              (a)Well furnished, air-conditioned rooms for interviews and group
+              (a) Well furnished, air-conditioned rooms for interviews and group
               discussions.<br />
-              (b)Auditoriums close to the office to conduct pre-placement talks and
+              (b) Auditoriums close to the office to conduct pre-placement talks and
               tests.<br />
-              (c)Video conferencing facility for conducting interviews.<br />
-              (d)Student placement volunteers to assist on the day of visit and
+              (c) Video conferencing facility for conducting interviews.<br />
+              (d) Student placement volunteers to assist on the day of visit and
               through the selection process.<br />
             
           </div>
