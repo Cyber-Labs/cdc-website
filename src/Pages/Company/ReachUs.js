@@ -4,7 +4,7 @@ import "./ReachUs.css";
 class ReachUs extends React.Component {
   render() {
     return (
-      <div>
+      <div class="colorback">
         <h1 align="middle"><b>Reach Us</b></h1>
         <div class="mainbox">
           <div class="transport">

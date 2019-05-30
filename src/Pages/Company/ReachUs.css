@@ -1,7 +1,11 @@
 .mainbox{
     display:flex;
     flex-direction: column;
-
+  
+}
+.colorback{
+    background-color: #d9e2ec;
+   
 }
 .heading{
     margin: 2vh 3vw 2vh 3vw;

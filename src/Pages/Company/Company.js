@@ -8,7 +8,6 @@ class ForCompanies extends React.Component {
   render() {
     return (
       <div>
-        <WhyRecruit />
         <RegistrationAndBrochure />
         <PastRecruiter />
         <ReachUs />
