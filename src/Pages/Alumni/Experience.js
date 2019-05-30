@@ -5,16 +5,16 @@ export default class Experience extends React.Component {
   render() {
     return (
       <div>
-        <div class="textt">
+        <div className="textt">
           <h1>Share your Experience from failures</h1>
         </div>
-        <div class="main">
-          <div class="box1">
-            <div class="box11">Article</div>
+        <div className="main">
+          <div className="box1">
+            <div className="box11">Article</div>
             <hr />
-            <div class="box2">
-              <div class="box21">
-                <p class="para">
+            <div className="box2">
+              <div className="box21">
+                <p className="para">
                   An article from the alumnus regarding their experience with
                   failure.
                 </p>
@@ -24,18 +24,18 @@ export default class Experience extends React.Component {
                   </a>
                 </div>
               </div>
-              <div class="image">
-                <img src="assets/img/article.png" class="img1" />
+              <div className="image">
+                <img src="assets/img/article.png" className="img1" />
               </div>
             </div>
           </div>
           <br />
-          <div class="box1">
-            <div class="box11">Video</div>
+          <div className="box1">
+            <div className="box11">Video</div>
             <hr />
-            <div class="box2">
-              <div class="box21">
-                <p class="para">
+            <div className="box2">
+              <div className="box21">
+                <p className="para">
                   Video Clips from the alumnus regarding their experience with
                   failure.
                 </p>
@@ -45,13 +45,13 @@ export default class Experience extends React.Component {
                   </a>
                 </div>
               </div>
-              <div class="image">
-                <img src="assets/img/video.jpg" class="img1" />
+              <div className="image">
+                <img src="assets/img/video.jpg" className="img1" />
               </div>
             </div>
           </div>
         </div>
-        <div class="textt">
+        <div className="textt">
           <h1>Share your contact</h1>
           <div>
             To stay connected with CDC and help CDC in bringing more companies

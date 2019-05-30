@@ -28,30 +28,30 @@ class PastRecruiter extends React.Component {
 	render(){
 		return(
 			<div>
-			    <div class="slideshow-container">
+			    <div className="slideshow-container">
 
   
-				  <div class="mySlides fade">
-				    <div class="numbertext">1 / 3</div>
+				  <div className="mySlides fade">
+				    <div className="numbertext">1 / 3</div>
 				    <img src="assets/img/img556.jpg"  />
-				    <div class="text">Img 1</div>
+				    <div className="text">Img 1</div>
 				  </div>
 
-				  <div class="mySlides fade">
-				    <div class="numbertext">2 / 3</div>
+				  <div className="mySlides fade">
+				    <div className="numbertext">2 / 3</div>
 				    <img src="assets/img/img559.jpg"  />
-				    <div class="text">Img Two</div>
+				    <div className="text">Img Two</div>
 				  </div>
 
-				  <div class="mySlides fade">
-				    <div class="numbertext">3 / 3</div>
+				  <div className="mySlides fade">
+				    <div className="numbertext">3 / 3</div>
 				    <img src="assets/img/img560.jpg" />
-				    <div class="text">Img Three</div>
+				    <div className="text">Img Three</div>
 				  </div>
 
 				 
-				  <a class="prev" onClick={()=>this.showSlides(-1)}>&#10094;</a>
-				  <a class="next" onClick={()=>this.showSlides(1)}>&#10095;</a>
+				  <a className="prev" onClick={()=>this.showSlides(-1)}>&#10094;</a>
+				  <a className="next" onClick={()=>this.showSlides(1)}>&#10095;</a>
 				</div>
 			</div>
 

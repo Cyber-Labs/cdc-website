@@ -4,11 +4,11 @@ import "./AlumniVisit.css";
 export default class AlumniVisit extends React.Component {
   render() {
     return (
-      <div class="background">
+      <div className="background">
         <div>
-          <img src="assets/img/alumni.jpg" class="image4" />
+          <img src="assets/img/alumni.jpg" className="image4" />
         </div>
-        <div class="visit-text">
+        <div className="visit-text">
           <h1>Tell us about your Visit to Dhanbad</h1>
           <div>
             Let us know about your visit to Dhanbad and we will arrange

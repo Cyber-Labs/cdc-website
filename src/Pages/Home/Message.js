@@ -5,8 +5,8 @@ class Message extends React.Component {
   render() {
     return (
       <div>
-        <div class="flex-container3">
-          <div class="message-text">
+        <div className="flex-container3">
+          <div className="message-text">
             <h1>Message from the Director</h1>
             <div>
               Indian Institute of Technology(Indian School Of Mines) Dhanbad is
@@ -23,8 +23,8 @@ class Message extends React.Component {
               IIT(ISM).{" "}
             </div>
           </div>
-          <div class="img2">
-            <img src="assets/img/maxresdefault.jpg" class="image2" />
+          <div className="img2">
+            <img src="assets/img/maxresdefault.jpg" className="image2" />
           </div>
         </div>
       </div>
