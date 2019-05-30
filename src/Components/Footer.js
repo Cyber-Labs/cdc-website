@@ -7,8 +7,7 @@ class Footer extends React.Component{
 		return(
 			<div>
 			<div className="main_flex">
-			 <div className="flex_abcd">
-				<div className="flex_image">
+			 	<div className="flex_image">
 				 <div><a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png"/></a></div>
 				 <div className="cdc">Career Development <br/>Centre,<br/>IIT(ISM)Dhanbad</div>
 				</div>
@@ -21,7 +20,6 @@ class Footer extends React.Component{
 				<div><Link to='/placement-stats#/'>Placement Stats</Link></div>
 				<div><Link to="/contact-us#/">Contact Us</Link></div>
 
-				</div>
 				</div>
 				<div className="flex_quicklinks">
 				<div><b>Quick Links</b></div>
