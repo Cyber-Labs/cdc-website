@@ -6,6 +6,8 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.1",
+    "react-mailto": "^0.4.0",
+    "react-protected-mailto": "^1.0.3",
     "react-router-dom": "^5.0.0",
     "react-router-hash-link": "^1.2.1",
     "react-scripts": "2.1.8",

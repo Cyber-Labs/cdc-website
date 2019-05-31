@@ -1,5 +1,7 @@
 import React from "react";
 import "./Experience.css";
+import Mailto from "react-mailto";
+
 
 export default class Experience extends React.Component {
   render() {
@@ -40,7 +42,12 @@ export default class Experience extends React.Component {
                   failure.
                 </p>
                 <div align="left">
-                  <a href="https://forms.gle/epqBg66RejtTTc1PA" target="_blank">
+                  {/*<a href="https://forms.gle/epqBg66RejtTTc1PA" target="_blank">
+                  <Mailto email="cdc@iitism.ac.in">
+                  <button type="submit">Share</button>
+                  </Mailto>
+                  */}
+                  <a href='mailto:cdc@iitism.ac.in'>
                     <button type="submit">Share</button>
                   </a>
                 </div>
@@ -49,7 +56,7 @@ export default class Experience extends React.Component {
                 <img src="assets/img/video.jpg" class="img1" />
               </div>
             </div>
-          </div>
+?          </div>
         </div>
         <div class="textt">
           <h1>Share your contact</h1>
