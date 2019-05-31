@@ -102,4 +102,25 @@ input[type=checkbox]:checked ~ .header_nav{
   .show-menu {
     display:block;
   }
+  .L1 {
+    font-size: 16px;  
+  } .L2 {
+    font-size: 16px;
+  }
+  li a {
+    font-size: 14px;
+  }
+  .flex-container{
+    height: 15vh;   
+  }
+}
+@media all and (max-width: 321px){
+  .L1 {
+    font-size: 14px;  
+  } .L2 {
+    font-size: 14px;
+  }
+  li a {
+    font-size: 12px;
+  }
 }

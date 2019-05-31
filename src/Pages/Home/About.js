@@ -9,9 +9,9 @@ class About extends React.Component {
           <img src="assets/img/Campus.jpeg" className="image3" />
         </div>
         <div className="about-text">
-          <h1>About IIT(ISM),Dhanbad</h1>
+          <h1>About IIT (ISM), Dhanbad</h1>
           <div>
-            Indian Institute of Technology(Indian School Of Mines) Dhanbad
+            Indian Institute of Technology (Indian School Of Mines) Dhanbad
             formerly known as ISM Dhanbad was set up by the Government of India
             and was formally Inaugrated by his Excellency the Viceroy Lord Irvin
             on 9th December, 1926 on the model of Royal School Of Mines, London.

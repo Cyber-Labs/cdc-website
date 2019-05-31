@@ -20,7 +20,7 @@ class Message extends React.Component {
               and is foraying into newer areas of academic endeavours. The
               Career Development Cell is the nodal point of contact for
               comapnies seeking to establish a constructive relationship with
-              IIT(ISM).{" "}
+              IIT (ISM).{" "}
             </div>
           </div>
           <div className="img2">

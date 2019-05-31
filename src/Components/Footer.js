@@ -9,7 +9,7 @@ class Footer extends React.Component{
 			<div className="main_flex">
 			 	<div className="flex_image">
 				 <div><a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png"/></a></div>
-				 <div className="cdc">Career Development <br/>Centre,<br/>IIT(ISM)Dhanbad</div>
+				 <div className="cdc">Career Development <br/>Centre,<br/>IIT (ISM) Dhanbad</div>
 				</div>
 				<div className="flex_home">
 				<div><Link to='/#/'>Home</Link></div>
@@ -41,7 +41,7 @@ class Footer extends React.Component{
 				 <div className="flex_address">
 				  <div>Career Development Centre,</div>
 					<div>Executive Development Center(EDC),</div>
-					<div>IIT(ISM)Dhanbad,</div>
+					<div>IIT (ISM) Dhanbad,</div>
 					<div>Dhanbad-826001,Jharkhand</div>
 				</div>
 				 <div className="flex_email">
@@ -58,7 +58,7 @@ class Footer extends React.Component{
 			//           <a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png"/></a>
 			//         </div>
 			//         <div>
-			//           <br/>Career Development <br/>Centre,<br/>IIT(ISM)Dhanbad
+			//           <br/>Career Development <br/>Centre,<br/>IIT (ISM) Dhanbad
 			//         </div>
 			//      </div>
 			//   </div>
@@ -84,7 +84,7 @@ class Footer extends React.Component{
 			//   <div className="flex-4f">
 			//         <div>Career Development Centre.</div>
 			//         <div>Executive Development Center(EDC),</div>
-			//         <div>IIT(ISM)Dhanbad</div>
+			//         <div>IIT (ISM)Dhanbad</div>
 			//         <div>Dhanbad-826001,Jharkhand</div>
 			//         <div><p></p></div>
 			//         <div><p></p></div>

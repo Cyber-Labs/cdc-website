@@ -27,7 +27,7 @@
   padding-right: 5vh;
   margin-bottom:3vh;
 }
-@media all and (max-width: 600px) {
+@media all and (max-width: 959px) {
   .flex-container3 {
     flex-direction: column;
   }
