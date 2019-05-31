@@ -19,7 +19,7 @@ class RegistrationAndBrochure extends React.Component {
               <div>
                 <p>
                   The Training & Placement Cell invites Companies to visit
-                  IIT(ISM) and conduct the process to offer Full Time to the
+                  IIT (ISM) and conduct the process to offer Full Time to the
                   students.
                   <br />
                   The T&P Cell provides the link to download the Job

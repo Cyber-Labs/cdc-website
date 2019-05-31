@@ -186,19 +186,19 @@ class Policy extends React.Component {
               </li>
               <li>
                 Any student who has accepted an internship offer through Online
-                Contests facilitated/assisted by IIT(ISM) will be considered as
+                Contests facilitated/assisted by IIT (ISM) will be considered as
                 on-campus internship offer and point 2 shall come into force.{" "}
               </li>
               <li>
                 Any final year student who has accepted a PPO by company through
-                Online Contests facilitated/assisted by IIT(ISM) will not be
+                Online Contests facilitated/assisted by IIT (ISM) will not be
                 allowed to appear in any placement process conducted through CDC
                 in his/her final year.{" "}
               </li>
               <li>
                 A pre-final year student (of all programs) who has accepted a
                 PPO by company through campus hiring or Online Contests
-                facilitated/assisted by IIT(ISM) can appear for intern hiring
+                facilitated/assisted by IIT (ISM) can appear for intern hiring
                 process only in the pre-final year. However, the student cannot
                 appear for PPO process of the company in which he/she is
                 doing/undergoing the internship. (This is the case of B. Tech/

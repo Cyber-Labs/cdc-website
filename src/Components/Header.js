@@ -20,7 +20,7 @@ class Header extends React.Component {
           <div className="flex-container2">
             <div className="L1">Career Development Cell</div>
             <div className="L2">
-              Indian Institute Of Technology(Indian School Of Mines) Dhanbad
+              Indian Institute Of Technology (Indian School Of Mines) Dhanbad
             </div>
           </div>
         </div>
