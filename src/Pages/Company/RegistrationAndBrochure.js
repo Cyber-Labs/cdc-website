@@ -1,17 +1,21 @@
 import React from "react";
 import "./RegistrationAndBrochure.css";
+import ITable from "../Home/ITable";
+import PTable from "../Home/PTable";
+import Popup from "reactjs-popup";
+import { HashLink as Link } from 'react-router-hash-link';
 
 class RegistrationAndBrochure extends React.Component {
   render() {
     return (
       <div>
-        <div class="mainp">
-          <div class="box1p">
-            <div class="box11p">
+        <div className="mainp">
+          <div className="box1p">
+            <div className="box11p">
               <h1>Registration</h1>
               <hr />
             </div>
-            <div class="box12p">
+            <div className="box12p">
               <div>
                 <p>
                   The Training & Placement Cell invites Companies to visit
@@ -34,30 +38,38 @@ class RegistrationAndBrochure extends React.Component {
               </div>
             </div>
             <div align="middle">
-              <button type="submit">Register</button>
+              <Link to='/dummylink#/'><button type="submit">Register</button></Link><br/>
+              <Link to='/dummylink#/'><button type="submit">Download JNF(Job Notification Form)</button></Link>
+              <Link to='/dummylink#/'><button type="submit">Download INF(Internship Notification Form)</button></Link>
             </div>
+
           </div>
-          <div class="box2p">
-            <div class="box21p">
-              <div class="box11p">
+          <div className="box2p">
+            <div className="box21p">
+              <div className="box11p">
                 <h1>Placement Brochure</h1>
                 <hr />
               </div>
-              <div align="middle">
-                <a href="#">Internship Calendar(HL)</a>
-                <br />
-                <a href="#">Registration Portal(HL)</a>
-              </div>
-              <div class="btn" align="middle">
+              <div className="btn" align="middle">
                 <a href="https://www.iitism.ac.in/pdfs/tnp/Placement-Brochure.pdf" target="_blank">
                 <button type="submit" >
                   Download
                 </button>
                 </a>
               </div>
+              <div align="middle">
+              <Popup trigger={<button> Internship Calendar</button>} position="bottom center">
+                  <div><ITable/></div>
+              </Popup>
+              <Popup trigger={<button> Placement Calendar</button>} position="bottom center">
+                  <div><PTable/></div>
+              </Popup>
+                </div>
+              
+              
             </div>
-            <div class="box22p">
-                <img src="assets/img/placementbrochure.jpg" class="imagepb" />
+            <div className="box22p">
+                <img src="assets/img/placementbrochure.jpg" className="imagepb" />
             </div>
           </div>
         </div>
