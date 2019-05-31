@@ -8,7 +8,7 @@ class Policy extends React.Component {
       <div>
         <div className="p3">
           <div className="paramargin">
-            <div className="headingpolicy">Pre-Placement:</div>
+            <div className="headingpolicy">Pre-Placement Offer(PPO):</div>
             <ol>
               <li>
                 PPOs: In order to have a mutual benefit, it is highly desirable
