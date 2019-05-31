@@ -24,7 +24,7 @@ class Message extends React.Component {
             </div>
           </div>
           <div className="img2">
-            <img src="assets/img/maxresdefault.jpg" className="image2" />
+            <img src="assets/img/maxresdefault.jpg" className="image2" alt="" />
           </div>
         </div>
       </div>
