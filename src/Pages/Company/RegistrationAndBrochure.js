@@ -69,7 +69,7 @@ class RegistrationAndBrochure extends React.Component {
               
             </div>
             <div className="box22p">
-                <img src="assets/img/placementbrochure.jpg" className="imagepb" />
+                <img src="assets/img/placementbrochure.jpg" className="imagepb" alt="" />
             </div>
           </div>
         </div>

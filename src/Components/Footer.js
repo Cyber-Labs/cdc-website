@@ -8,7 +8,7 @@ class Footer extends React.Component{
 			<div>
 			<div className="main_flex">
 			 	<div className="flex_image">
-				 <div><a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png"/></a></div>
+				<div><a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png" alt=""/></a></div>
 				 <div className="cdc">Career Development <br/>Centre,<br/>IIT (ISM) Dhanbad</div>
 				</div>
 				<div className="flex_home">

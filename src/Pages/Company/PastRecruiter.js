@@ -33,19 +33,19 @@ class PastRecruiter extends React.Component {
   
 				  <div className="mySlides fade">
 				    <div className="numbertext">1 / 3</div>
-				    <img src="assets/img/img556.jpg"  />
+				    <img src="assets/img/img556.jpg" alt="" />
 				    <div className="text">Img 1</div>
 				  </div>
 
 				  <div className="mySlides fade">
 				    <div className="numbertext">2 / 3</div>
-				    <img src="assets/img/img559.jpg"  />
+				    <img src="assets/img/img559.jpg" alt="" />
 				    <div className="text">Img Two</div>
 				  </div>
 
 				  <div className="mySlides fade">
 				    <div className="numbertext">3 / 3</div>
-				    <img src="assets/img/img560.jpg" />
+				    <img src="assets/img/img560.jpg" alt="" />
 				    <div className="text">Img Three</div>
 				  </div>
 

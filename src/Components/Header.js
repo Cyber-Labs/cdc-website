@@ -14,6 +14,7 @@ class Header extends React.Component {
               <img
                 className="img"
                 src="https://www.iitism.ac.in/assets/img/ismlogo.png"
+                alt=""
               />
             </a>
           </div>
