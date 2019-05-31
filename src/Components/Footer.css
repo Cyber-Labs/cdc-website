@@ -94,8 +94,12 @@ a:visited{
       font-size: 2.2vh;
     }
     .flex_image{
-      width: 80vw;
+      width: 100vw;
     }
+    .flex_abcd{
+      display:flex;
+      flex-direction: column;
+    }    
    .main_flex{
      display: flex;
      flex-direction: column;
@@ -103,7 +107,7 @@ a:visited{
      width: 100%;
    }
    .flex_home{
-     text-align: left;
+     text-align: center;
      font-size: 2vh;
    }
    .flex_quicklinks{
@@ -124,7 +128,7 @@ a:visited{
    }
     @media all and (min-width: 700px){
       .flex_image{
-        width: 80vw;
+        width: 100vw;
       }
       .flex_home{
         margin-left: 5vh;
