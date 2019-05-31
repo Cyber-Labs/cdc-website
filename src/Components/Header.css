@@ -59,12 +59,47 @@ li a {
 
 li a:hover {
   background-color:#f7f8fa;}
+
+.header_nav{
+  display:flex;
+  flex-direction:row;
+  flex-flow: row wrap;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.show-menu {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #666;
+  background: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+  display: none;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+input[type=checkbox]:checked ~ .header_nav{
+  display: block;
+}
+
+@media all and (max-width: 959px){
   .header_nav{
-    display:flex;
-    flex-direction:row;
-    flex-flow: row wrap;
+    position: static;
+    display: none;
   }
-  body{
-    margin: 0;
-    padding: 0;
+  .header_nav li {
+    margin-bottom: 1px;
   }
+  .header_nav li, link {
+    width: 100%;
+  }
+  .show-menu {
+    display:block;
+  }
+}
