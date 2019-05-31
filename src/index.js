@@ -22,7 +22,7 @@ const routing = (
         <Route exact path="/policies" component={Policy} />
         <Route exact path="/contact-us" component={ContactUs} />
         <Route exact path="/dummylink" component={DummyLink} />
-        <Route component={Not_found} />
+        <Route component={DummyLink} />
       </Switch>
       <Footer />
     </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Experience.css";
-import Mailto from "react-mailto";
 
 
 export default class Experience extends React.Component {
@@ -42,12 +41,7 @@ export default class Experience extends React.Component {
                   failure.
                 </p>
                 <div align="left">
-                  {/*<a href="https://forms.gle/epqBg66RejtTTc1PA" target="_blank">
-                  <Mailto email="cdc@iitism.ac.in">
-                  <button type="submit">Share</button>
-                  </Mailto>
-                  */}
-                  <a href='mailto:cdc@iitism.ac.in'>
+                  <a href="https://forms.gle/epqBg66RejtTTc1PA" target="_blank">
                     <button type="submit">Share</button>
                   </a>
                 </div>
