@@ -62,7 +62,7 @@ hr{
     text-align: left;
 }
 
-@media all and (max-width: 1200px){
+@media all and (max-width: 959px){
     .main{
         display: flex;
         flex-direction: column;

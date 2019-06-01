@@ -6,7 +6,7 @@ export default class AlumniVisit extends React.Component {
     return (
       <div className="background">
         <div>
-          <img src="assets/img/alumni.jpg" className="image4" />
+          <img src="assets/img/alumni.jpg" className="image4" alt=""/>
         </div>
         <div className="visit-text">
           <h1>Tell us about your Visit to Dhanbad</h1>

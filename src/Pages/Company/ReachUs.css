@@ -49,7 +49,7 @@ p{
     margin-left:2vw;
 }
 
-@media all and (max-width: 1200px){
+@media all and (max-width: 959px){
     .transport{
         font-size: 2vh;
     }

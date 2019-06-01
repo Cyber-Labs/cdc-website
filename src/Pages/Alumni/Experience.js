@@ -26,7 +26,7 @@ export default class Experience extends React.Component {
                 </div>
               </div>
               <div className="image">
-                <img src="assets/img/article.png" className="img1" />
+                <img src="assets/img/article.png" className="img1" alt="" />
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default class Experience extends React.Component {
                 </div>
               </div>
               <div className="image">
-                <img src="assets/img/video.jpg" className="img1" />
+                <img src="assets/img/video.jpg" className="img1" alt=""/>
               </div>
             </div>
 ?          </div>

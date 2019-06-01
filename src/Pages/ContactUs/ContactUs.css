@@ -30,7 +30,7 @@
     justify-content: space-around;
 }
 
-@media all and (max-width: 1200px){
+@media all and (max-width: 959px){
     .contact_main{
         display: flex;
         flex-direction: column;
