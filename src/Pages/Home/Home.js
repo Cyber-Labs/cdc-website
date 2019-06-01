@@ -1,5 +1,4 @@
 import React from "react";
-
 import Message from "./Message";
 import About from "./About";
 import Hiring from "./Hiring";

@@ -1,7 +1,6 @@
 import React from "react";
 import "./Policy.css";
 
-
 class Policy extends React.Component {
   componentDidMount(){
     document.querySelector("meta[name='keywords']").content="IIT(ISM) placement policies, policy, Placement terms, PPO, PPI, SCPT";

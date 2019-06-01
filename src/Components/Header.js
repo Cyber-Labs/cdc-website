@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import "./Header.css";
 
 class Header extends React.Component {
@@ -31,25 +31,25 @@ class Header extends React.Component {
             <input type="checkbox" id="show-menu" role="button" />
             <ul className="header_nav">
               <li>
-                <Link  className="link" to="/">Home</Link>
+                <Link  className="link" to="/#/">Home</Link>
               </li>
               <li>
-                <Link  className="link" to="/for-companies">For Companies</Link>
+                <Link  className="link" to="/for-companies#/">For Companies</Link>
               </li>
               <li>
-                <Link  className="link" to="/for-students">For Students</Link>
+                <Link  className="link" to="/for-students#/">For Students</Link>
               </li>
               <li>
-                <Link  className="link" to="/for-alumni">For Alumni</Link>
+                <Link  className="link" to="/for-alumni#/">For Alumni</Link>
               </li>
               <li>
-                <Link  className="link" to="/policies">Policies</Link>
+                <Link  className="link" to="/policies#/">Policies</Link>
               </li>
               <li>
-                <Link  className="link" to="/placement-stats">Placement Stats</Link>
+                <Link  className="link" to="/placement-stats#/">Placement Stats</Link>
               </li>
               <li>
-                <Link  className="link" to="/contact-us">Contact Us</Link>
+                <Link  className="link" to="/contact-us#/">Contact Us</Link>
               </li>
             </ul>
           </nav>
