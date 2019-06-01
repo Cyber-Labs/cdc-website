@@ -50,7 +50,7 @@ button{
 	margin:auto;
 	box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
 }
-@media all and (max-width:500px)
+@media all and (max-width:959px)
 {
 	.main{
 		display: flex;

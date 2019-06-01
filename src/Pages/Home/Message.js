@@ -20,11 +20,11 @@ class Message extends React.Component {
               and is foraying into newer areas of academic endeavours. The
               Career Development Cell is the nodal point of contact for
               comapnies seeking to establish a constructive relationship with
-              IIT(ISM).{" "}
+              IIT (ISM).{" "}
             </div>
           </div>
           <div className="img2">
-            <img src="assets/img/maxresdefault.jpg" className="image2" />
+            <img src="assets/img/maxresdefault.jpg" className="image2" alt="" />
           </div>
         </div>
       </div>
