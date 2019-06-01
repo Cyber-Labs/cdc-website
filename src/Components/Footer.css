@@ -100,6 +100,10 @@ a:visited{
     .flex_image{
       width: 20vw;
     }
+    .flex_abcd{
+      display:flex;
+      flex-direction: column;
+    }    
    .main_flex{
      display: flex;
      flex-direction: column;

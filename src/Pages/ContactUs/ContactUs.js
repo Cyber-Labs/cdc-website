@@ -3,6 +3,10 @@ import React from "react";
 import "./ContactUs.css";
 
 export default class ContactUs extends React.Component {
+  componentDidMount(){
+    document.querySelector("meta[name='keywords']").content="Contact CDC IIT(ISM), cdc, ISM, IIT, IIT(ISM) Dhanbad cdc contact, contact us, scpt";
+    document.querySelector("meta[name='description']").content="IIT(ISM) Dhanbad CDC Contact Us Page";
+  }
   render() {
     return (
       <div>
