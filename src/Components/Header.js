@@ -10,7 +10,7 @@ class Header extends React.Component {
         <div className="flex-container">
           <div className="image">
             {" "}
-            <a href="https://www.iitism.ac.in/" target="_blank">
+            <a href="https://www.iitism.ac.in/" target="_blank" rel="noreferrer">
               <img
                 className="img"
                 src="https://www.iitism.ac.in/assets/img/ismlogo.png"
@@ -19,7 +19,7 @@ class Header extends React.Component {
             </a>
           </div>
           <div className="flex-container2">
-            <div className="L1">Career Development Cell</div>
+            <div className="L1">Career Development Caell</div>
             <div className="L2">
               Indian Institute Of Technology (Indian School Of Mines) Dhanbad
             </div>

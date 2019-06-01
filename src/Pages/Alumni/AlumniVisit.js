@@ -19,7 +19,7 @@ export default class AlumniVisit extends React.Component {
           </div>
         </div>
         <div align="right">
-          <a href="https://forms.gle/EPRp7eQpqiEvhsb7A" target="_blank">
+          <a href="https://forms.gle/EPRp7eQpqiEvhsb7A" target="_blank" rel="noreferrer">
             <button type="submit">Register</button>
           </a>
         </div>
