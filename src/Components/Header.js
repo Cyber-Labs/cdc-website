@@ -10,7 +10,7 @@ class Header extends React.Component {
         <div className="flex-container">
           <div className="image">
             {" "}
-            <a href="https://www.iitism.ac.in/" target="_blank">
+            <a href="https://www.iitism.ac.in/" target="_blank" rel="noreferrer">
               <img
                 className="img"
                 src="https://www.iitism.ac.in/assets/img/ismlogo.png"

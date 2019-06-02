@@ -19,7 +19,7 @@ export default class Experience extends React.Component {
                   failure.
                 </p>
                 <div align="left">
-                  <a href="https://forms.gle/i6YveP9dXhpJmA5RA" target="_blank">
+                  <a href="https://forms.gle/i6YveP9dXhpJmA5RA" target="_blank" rel="noreferrer">
                     <button type="submit">Share</button>
                   </a>
                 </div>
@@ -40,7 +40,7 @@ export default class Experience extends React.Component {
                   failure.
                 </p>
                 <div align="left">
-                  <a href="https://forms.gle/epqBg66RejtTTc1PA" target="_blank">
+                  <a href="https://forms.gle/epqBg66RejtTTc1PA" target="_blank" rel="noreferrer">
                     <button type="submit">Share</button>
                   </a>
                 </div>
@@ -59,7 +59,7 @@ export default class Experience extends React.Component {
           </div>
         </div>
         <div align="right">
-          <a href="https://forms.gle/U8EGCkXQNGV6g5qD6" target="_blank">
+          <a href="https://forms.gle/U8EGCkXQNGV6g5qD6" target="_blank" rel="noreferrer">
             <button type="submit">Register</button>
           </a>
         </div>

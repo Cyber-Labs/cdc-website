@@ -51,17 +51,17 @@ class RegistrationAndBrochure extends React.Component {
                 <hr />
               </div>
               <div className="btn" align="middle">
-                <a href="https://www.iitism.ac.in/pdfs/tnp/Placement-Brochure.pdf" target="_blank">
+                <a href="https://www.iitism.ac.in/pdfs/tnp/Placement-Brochure.pdf" target="_blank" rel="noreferrer">
                 <button type="submit" >
                   Download
                 </button>
                 </a>
               </div>
               <div align="middle">
-              <Popup trigger={<button> Internship Calendar</button>} position="bottom center">
+              <Popup trigger={<button> Internship Calendar</button>} position="bottom left">
                   <div><ITable/></div>
               </Popup>
-              <Popup trigger={<button> Placement Calendar</button>} position="bottom center">
+              <Popup trigger={<button> Placement Calendar</button>} position="bottom left">
                   <div><PTable/></div>
               </Popup>
                 </div>
