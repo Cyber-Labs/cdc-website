@@ -19,7 +19,7 @@ class Header extends React.Component {
             </a>
           </div>
           <div className="flex-container2">
-            <div className="L1">Career Development Cell</div>
+            <div className="L1">Career Development Center</div>
             <div className="L2">
               Indian Institute Of Technology (Indian School Of Mines) Dhanbad
             </div>
@@ -35,9 +35,6 @@ class Header extends React.Component {
               </li>
               <li>
                 <Link  className="link" to="/for-companies#/">For Companies</Link>
-              </li>
-              <li>
-                <Link  className="link" to="/for-students#/">For Students</Link>
               </li>
               <li>
                 <Link  className="link" to="/for-alumni#/">For Alumni</Link>
