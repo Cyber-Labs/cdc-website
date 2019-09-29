@@ -42,10 +42,6 @@ class Hiring extends React.Component {
             <div>
               <p />
             </div>
-            <div align="middle">
-              <Link to='/dummylink#/'><button type="submit">Register</button></Link>
-              <p />
-            </div>
           </div>
         </div>
       </div>

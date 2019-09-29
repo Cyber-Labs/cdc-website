@@ -41,7 +41,7 @@ a:visited{
   text-decoration:none;
   display: flex;
   flex-direction:column;
-  margin-left: -9vw;
+  margin-left: -18vw;
   font-size: 2.2vh;
   /* float: center; */
   background-color: #f8f8f8;
@@ -98,7 +98,7 @@ a:visited{
       font-size: 2.2vh;
     }
     .flex_image{
-      width: 20vw;
+      width: 100vw;
     }
     .flex_abcd{
       display:flex;
@@ -113,6 +113,7 @@ a:visited{
    .flex_home{
      text-align: center;
      font-size: 2vh;
+     margin-left: 2vh;
    }
    .flex_quicklinks{
     text-align: center;
