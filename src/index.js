@@ -9,6 +9,7 @@ import Alumni from "./Pages/Alumni/Alumni";
 import Policy from "./Pages/Policies/Policy";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Placement from "./Pages/Placement/Placement";
+import example from "./Pages/example";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
