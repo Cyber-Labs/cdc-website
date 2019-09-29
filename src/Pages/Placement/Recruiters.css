@@ -1,7 +1,12 @@
 .flex1{
     display: flex;
     flex-direction: row;
+    padding-top: 4vh;
+    justify-content: space-around;
     background-color: #d9e2ec;
+}
+.dist{
+    padding:4vh 0vw 2vh 0vw;
 }
 
 .flex2{
@@ -11,6 +16,12 @@
 }
 
 @media all and (max-width: 780px){
+    .flex1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #d9e2ec;
+    }
     .flex2{
         display: flex;
         flex-direction: column;

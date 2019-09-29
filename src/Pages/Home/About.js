@@ -6,7 +6,7 @@ class About extends React.Component {
     return (
       <div className="background">
         <div>
-          <img src="assets/img/Campus.jpeg" className="image3" alt="" />
+          <img src="assets/img/campus.PNG" className="image3" alt="" />
         </div>
         <div className="about-text">
           <h1>About IIT (ISM), Dhanbad</h1>

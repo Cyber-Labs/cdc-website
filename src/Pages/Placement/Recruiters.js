@@ -1,17 +1,50 @@
 import React from 'react';
+import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+
 import './Recruiters.css'
 
+  //   	const useStyles = makeStyles((theme: Theme) =>
+		//   createStyles({
+		//     root: {
+		//       width: '100%',
+		//     },
+		//     heading: {
+		//       fontSize: theme.typography.pxToRem(15),
+		//       fontWeight: theme.typography.fontWeightRegular,
+		//     },
+		//   }),
+		// );
+
 export default class Recruiters extends React.Component{
+
+
     render(){
+
+		// const classes = useStyles();
         return(
             <div>
-                <center>
-                <h2>Recruiters</h2>
+            <center>
+                <h2 class="dist">Recruiters</h2>
                 </center>
+            <div>
+            <div>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header">
+          <Typography><center><b>A-D</b></center></Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
             <div class="flex1">
-                <div class="flex2">
-                        <h3>A</h3>
-                        <p>
+            <div>
+            <p><h3>A</h3><br/>
                         Aakash Educational Services Ltd.<br />	
                         ACB (India) Ltd. <br />	
                         Accenture	<br />
@@ -37,10 +70,10 @@ export default class Recruiters extends React.Component{
                         Avantha Power & Infra. Ltd.<br />	
                         Avanti Learning<br />
                         Axis Bank	<br />
-
-                        </p>
-                        <h3>B</h3>
-                        <p>
+             </p>
+             </div>
+             <div>
+              <p><h3>B</h3><br/>
                         Bank of Baroda	<br />
                         Baker Hughes	<br />
                         BASF	<br />
@@ -57,8 +90,9 @@ export default class Recruiters extends React.Component{
                         Burger Paints <br />
 
                         </p>
-                        <h3>C</h3>
-                        <p>
+             </div>
+             <div>
+              <p><h3>C</h3><br/>
                         Cairn Energy	<br />
                         Canara Bank	Canon India Pvt. Ltd.	<br />
                         Capgemini India Pvt. Ltd.<br />
@@ -71,10 +105,10 @@ export default class Recruiters extends React.Component{
                         Coupon Dunia<br />
                         CSC India Pvt. Ltd.	CSRL <br />	
                         CV Raman School for IIT JEE	<br />
-  
                         </p>
-                        <h3>D</h3>
-                        <p>
+             </div>
+             <div>
+             <p><h3>D</h3><br/>
                         Dalmia Cement	<br />
                         Damodar Valley Corporation<br />
                         Dart Energy Ltd.	<br />
@@ -85,9 +119,27 @@ export default class Recruiters extends React.Component{
                         DRDO	<br />
 
                         </p>
-                        <h3>E</h3>
-                        <p>
-                        Electrosteel Casting Ltd.	<br />
+
+             </div>
+
+            </div>
+
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header">
+          <Typography><center><b>E-H</b></center></Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            <div class="flex1">
+            <div>
+            <p><h3>E</h3><br/>
+                   Electrosteel Casting Ltd.	<br />
                         EMTA Coal Ltd.	<br />
                         Energy Infratech Pvt. Ltd.<br />
                         Ericsson India Global Services Pvt. Ltd.<br />	
@@ -95,13 +147,11 @@ export default class Recruiters extends React.Component{
                         Essar Steel India Ltd.	<br />
                         Essel Mining & Industries Ltd.	<br />
                         Evalueserve<br />
-                        Exide Industries Ltd.<br />	
-  
-                        </p>
-                        </div>
-                        <div class="flex2">
-                        <h3>F</h3>
-                        <p>
+                        Exide Industries Ltd.<br />	      
+             </p>
+             </div>
+             <div>
+              <p><h3>F</h3><br/>
                         FIITJEE	<br />
                         Facebook Inc.<br />	
                         Federal Bank	<br />
@@ -111,9 +161,13 @@ export default class Recruiters extends React.Component{
                         Futures First	<br />
                         FutureSoft	<br />
 
+                        
+
                         </p>
-                        <h3>G</h3>
-                        <p>
+             </div>
+             <div>
+              <p><h3>G</h3><br/>
+                       
                         GAIL<br />
                         Gammon India Pvt. Ltd.	<br />
                         GEECL	<br />
@@ -127,9 +181,12 @@ export default class Recruiters extends React.Component{
                         Grofers	<br />
                         GSPCL	<br />
      
+                        
                         </p>
-                        <h3>H</h3>
-                        <p>
+             </div>
+             <div>
+             <p><h3>H</h3><br/>
+                        
                         Halliburton Offshore Services Inc.<br />	
                         Hansa Management Pvt. Ltd.	<br />
                         Hatch Associates India Pvt. Ltd.<br />
@@ -141,11 +198,28 @@ export default class Recruiters extends React.Component{
                         Hindustan Zinc Limited (HZL)	<br />
                         HLS Asia Ltd.	<br />
                         HPCL	<br />
-
                         </p>
-                        <h3>I</h3>
-                        <p>
-                        IBM India Pvt. Ltd.	IDBI Bank<br />
+
+             </div>
+
+            </div>
+  
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header">
+          <Typography><center><b>I-L</b></center></Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            <div class="flex1">
+            <div>
+            <p><h3>I</h3><br/>
+                 IBM India Pvt. Ltd.	IDBI Bank<br />
                         Idea	<br />
                         iLine	<br />
                         Indal Technologies<br />	
@@ -156,11 +230,11 @@ export default class Recruiters extends React.Component{
                         ION GX Technology<br />	
                         ITC Infotech India Ltd.	<br />
                         ITC Limited<br />
-                        ITD Cementation India Ltd.<br />	
-
-                        </p>
-                        <h3>J</h3>
-                        <p>
+                        ITD Cementation India Ltd.<br />      
+             </p>
+             </div>
+             <div>
+              <p><h3>J</h3><br/>
                         Jaiprakash Associates Ltd.	<br />
                         Jayshree Taxtiles	<br />
                         JCB India Limited	<br />
@@ -170,35 +244,51 @@ export default class Recruiters extends React.Component{
                         Joy Mining Services India Pvt. Ltd	<br />
                         JSL Stainless Ltd.	<br />
                         JSW Steel Ltd.<br />
+
                         </p>
-                        <h3>K</h3>
-                        <p>
-                        Kanbay	<br />
+             </div>
+             <div>
+              <p><h3>K</h3><br/>
+                       Kanbay	<br />
                         Karam Chand Thapar & Bros. Ltd. <br />	
                         Karvy Consultants	<br />
                         Khosla Lab.	<br />
                         Konkola Copper Mines Plc.<br />
                         KMPG	<br />
                         KritiKal Solutions Private Limited <br />	
-
+                        
                         </p>
-                        <h3>L</h3>
-                        <p>
-                        L G Soft India Pvt. Ltd.	<br />
+             </div>
+             <div>
+             <p><h3>L</h3><br/>
+                      L G Soft India Pvt. Ltd.	<br />
                         L&T Construction<br />
-                        </p>
-                        </div>
-                        <div class="flex2">
-                            <p>
                         L&T Ltd.	<br />
                         Look Plex	<br />
-                        Lyca India Pvt. Ltd.<br />	
-
-
+                        Lyca India Pvt. Ltd.<br />   
+                       
                         </p>
-                        <h3>M</h3>
-                        <p>
-                        Mahindra Comviva	<br />
+
+             </div>
+
+            </div>
+  
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header">
+          <Typography><center><b>M-P</b></center></Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            <div class="flex1">
+            <div>
+            <p><h3>M</h3><br/>
+                      Mahindra Comviva	<br />
                         MAQ Software<br />
                         Marico Industries<br />	
                         Maruti Suzuki	<br />
@@ -213,32 +303,36 @@ export default class Recruiters extends React.Component{
                         Monet Ispat & Energy Ltd.	<br />
                         Marble Master (Dubai)	<br />
                         Mphasis Ltd.	<br />
-                        Mu-Sigma<br />
-                        </p>
-                        <h3>N</h3>
-                        <p>
-                    NCCBM	<br />
+                        Mu-Sigma<br />  
+             </p>
+             </div>
+             <div>
+              <p><h3>N</h3><br/>
+                     NCCBM	<br />
                     Nestle India<br />	
                     Neyveli Lignite Corporation Ltd. <br />	
                     Niko	<br />
                     NMDC<br />
                     NORMAT	<br />
                     NTPC	<br />
-                    Nucleus Software <br />	
-                    </p>
-                        <h3>O</h3>
-                        <p>
-                        Odessa Technologies Inc.	<br />
+                    Nucleus Software <br />	    
+
+                        </p>
+             </div>
+             <div>
+              <p><h3>O</h3><br/>
+                     Odessa Technologies Inc.	<br />
                         Oil India Ltd<br />
                         One 97 Communication<br />	
                         ONGC	<br />
                         OPAL India	<br />
                         Oracle	<br />
                         Orica Mining Services<br />
-
+ 
                         </p>
-                        <h3>P</h3>
-                        <p>
+             </div>
+             <div>
+             <p><h3>P</h3><br/>
                         Pandit Deendayal Petroleum University	<br />
                         Patna Saheb Engg. College	<br />
                         Patni Computer	<br />
@@ -247,21 +341,40 @@ export default class Recruiters extends React.Component{
                         Polaris	<br />
                         Poncho Hospitality Pvt. Ltd.<br />		
                         Pricewaterhousecoopers	<br />
-                        Prism Cement Ltd.<br />
-
+                        Prism Cement Ltd.<br /> 
+                       
                         </p>
-                        <h3>R</h3>
-                        <p>
-                        Rao Edusolutions Pvt. Ltd.	<br />
+
+             </div>
+
+            </div>
+  
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header">
+          <Typography><center><b>R-Z</b></center></Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            <div class="flex1">
+            <div>
+            <p><h3>R</h3><br/>
+                      Rao Edusolutions Pvt. Ltd.	<br />
                         Reliance Industries Ltd.	<br />
                         Reliance Infrastructure Ltd.	<br />
                         Reliance Power Ltd.	<br />
                         Resonance<br />
                         Rio Tinto	<br />
-                        Rockstar India Ltd.	<br />
-                       </p>
-                        <h3>S</h3>
-                        <p>
+                        Rockstar India Ltd.	<br /> 
+             </p>
+             </div>
+             <div>
+              <p><h3>S</h3><br/>
                         SAIL	<br />
                         Salva Resources<br />	
                         Samsung R&D India Banglalore<br />
@@ -275,10 +388,6 @@ export default class Recruiters extends React.Component{
                         Sesa Goa	<br />
                         S. G. Minerals Ltd.<br />
                         Shalina Resources	<br />
-                        </p>
-                        </div>
-                        <div class="flex2">
-                            <p>
                         Shell India	Singareni Collieries Company Ltd.<br />	
                         S&P Capital	<br />
                         S. N. Mohanty Group of Industries<br />
@@ -294,10 +403,12 @@ export default class Recruiters extends React.Component{
                         Syberplace E-solution Pvt. Ltd.	<br />
                         Systango	<br />
 
+
                         </p>
-                        <h3>T</h3>
-                        <p>
-                        TAFE Tractor	<br />
+             </div>
+             <div>
+              <p><h3>T</h3><br/>
+                       TAFE Tractor	<br />
                         Tagore Engg. College, Jaipur <br />	
                         Tata Cummins<br />
                         Tata Hitachi	<br />
@@ -316,39 +427,53 @@ export default class Recruiters extends React.Component{
                         TPC	Tractor India Pvt. Ltd.	<br />
                         Trivium Education Services (P) Ltd.<br />	
                         TVS Motors	<br />
-
+                        
                         </p>
-                        <h3>U</h3>
-                        <p>
-                        UCIL<br />
-                        United Spirits Limited<br />	
-
+             </div>
+             <div>
+             <p><h3>U</h3><br/>
+                       UCIL<br />
+                        United Spirits Limited<br />  
+                       
                         </p>
-                        <h3>V</h3>
-                        <p>
+              <p><h3>V</h3><br/>
                         Vedanta	<br />
                         Virtusa	<br />
                         Visa Steel Limited	<br />
                         VVIT<br />
-   
-                        </p>
-                        <h3>W</h3>
-                        <p>
-                        Walmart Labs	<br />
+              </p>
+              <p><h3>W</h3><br/>
+               Walmart Labs	<br />
                         Weatherford	<br />
                         Weir Minerals India Pvt. Ltd.<br />	
                         Whizdom Educare Pvt. Ltd.	<br />
                         Wipro<br />
                         </p>
-                        <h3>Y</h3>
-                        <p>Yahoo! Software Development Pvt. Ltd.</p>
-                        <h3>Z</h3>
-                    <p>
-                        Zuari Cement<br />	
+                        
+              <p><h3>Y</h3><br/>
+              Yahoo! Software Development Pvt. Ltd.
+              </p>
+              <p><h3>Z</h3><br/>
+              Zuari Cement<br />	
                         Zomato Media Pvt. Ltd. <br />
-                    </p>
-                    </div>
-                </div>
+             
+              </p>
+
+
+             </div>
+
+            </div>
+  
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      
+    </div>
+
+
+            </div>
+                
+            
             </div>
         );
     }
