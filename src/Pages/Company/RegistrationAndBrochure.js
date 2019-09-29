@@ -50,7 +50,7 @@ class RegistrationAndBrochure extends React.Component {
                 <hr />
               </div>
               <div className="btn" align="middle">
-                <a href="https://www.iitism.ac.in/pdfs/tnp/Placement-Brochure.pdf" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1ff1WC_x7XKC9fRBNwYFv33CoiyQo9h0N/view" target="_blank" rel="noreferrer">
                 <button type="submit" >
                   Download
                 </button>
