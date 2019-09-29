@@ -1,0 +1,19 @@
+.flex1{
+    display: flex;
+    flex-direction: row;
+    background-color: #d9e2ec;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2vh;
+}
+
+@media all and (max-width: 780px){
+    .flex2{
+        display: flex;
+        flex-direction: column;
+        font-size: 2vh;
+    }
+}

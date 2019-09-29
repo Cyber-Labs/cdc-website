@@ -38,7 +38,6 @@ class RegistrationAndBrochure extends React.Component {
               </div>
             </div>
             <div align="middle">
-              <Link to='/dummylink#/'><button type="submit">Register</button></Link><br/>
               <Link to='/dummylink#/'><button type="submit">Download JNF(Job Notification Form)</button></Link>
               <Link to='/dummylink#/'><button type="submit">Download INF(Internship Notification Form)</button></Link>
             </div>

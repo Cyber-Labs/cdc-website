@@ -9,12 +9,11 @@ class Footer extends React.Component{
 			<div className="main_flex">
 			 	<div className="flex_image">
 				<div><a href="https://www.iitism.ac.in/" target="_blank"><img src="https://www.iitism.ac.in/assets/img/ismlogo.png" alt=""/></a></div>
-				 <div className="cdc">Career Development <br/>Centre,<br/>IIT (ISM) Dhanbad</div>
+				 <div className="cdc">Career Development <br/>Center,<br/>IIT (ISM) Dhanbad</div>
 				</div>
 				<div className="flex_home">
 				<div><Link to='/#/'>Home</Link></div>
 				<div><Link to='/for-companies#/'>For Companies</Link></div>
-				<div><Link to='/for-students#/'>For students</Link></div>
 				<div><Link to='/for-alumni#/'>For Alumni</Link></div>
 				<div><Link to='/policies#/'>Policies</Link></div>
 				<div><Link to='/placement-stats#/'>Placement Stats</Link></div>
@@ -23,19 +22,10 @@ class Footer extends React.Component{
 				</div>
 				<div className="flex_quicklinks">
 				<div><b>Quick Links</b></div>
-				<div><Link to='/dummylink#/'>Registration Portal</Link></div>
 				<div><Link to='/dummylink#/'>AIPC Guidelines</Link></div>
 				<div><Link to='/dummylink#/'>Brochure</Link></div>
 				<div><Link to='/contact-us#cr1'>Contact Chairman</Link></div>
 				<div><Link to='/contact-us#/'>Contact CDC Office</Link></div></div>
-				<div className="flex_downloads">
-					<div><b>Downloads</b></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank" rel="noreferrer">Download1</a></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank" rel="noreferrer">Download2</a></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank" rel="noreferrer">Download3</a></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank" rel="noreferrer">Download4</a></div>
-					 <div><a href="https://www.iitism.ac.in/pdfs/academics/AC.pdf" target="_blank" rel="noreferrer">Download5</a></div>
-				 </div>
 
 				<div className="flex_contacts">
 				 <div className="flex_address">
