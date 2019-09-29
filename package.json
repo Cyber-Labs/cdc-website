@@ -3,16 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
+    "@material-ui/core": "^4.4.3",
+    "@material-ui/icons": "^4.4.3",
+    "bootstrap": "^4.3.1",
     "node-sass": "^4.12.0",
     "react": "^16.8.4",
     "react-awesome-slider": "^1.1.1",
-    "react-bootstrap-carousel": "^4.0.1",
-=======
-    "bootstrap": "^4.3.1",
-    "react": "^16.8.4",
     "react-bootstrap": "^1.0.0-beta.12",
->>>>>>> 28a622f30265aa36f03ae6132ef58aa687251f6a
+    "react-bootstrap-carousel": "^4.0.1",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.1",
     "react-responsive-carousel": "^3.1.50",
