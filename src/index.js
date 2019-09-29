@@ -10,6 +10,7 @@ import DummyLink from "./Components/DummyLink";
 import Alumni from "./Pages/Alumni/Alumni";
 import Policy from "./Pages/Policies/Policy";
 import ContactUs from "./Pages/ContactUs/ContactUs";
+import PlacementStats from "./Pages/PlacementStats/Placement-Stats";
 
 const routing = (
   <Router>
@@ -21,6 +22,7 @@ const routing = (
         <Route exact path="/for-alumni" component={Alumni} />
         <Route exact path="/policies" component={Policy} />
         <Route exact path="/contact-us" component={ContactUs} />
+        <Route exact path="/placement-stats" component={PlacementStats} />
         <Route exact path="/dummylink" component={DummyLink} />
         <Route component={DummyLink} />
       </Switch>
