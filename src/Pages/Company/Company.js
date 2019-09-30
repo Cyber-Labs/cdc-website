@@ -13,7 +13,6 @@ class ForCompanies extends React.Component {
     return (
       <div>
         <RegistrationAndBrochure />
-        <PastRecruiter />
         <ReachUs />
       </div>
     );

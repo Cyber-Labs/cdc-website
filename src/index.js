@@ -10,7 +10,6 @@ import Alumni from "./Pages/Alumni/Alumni";
 import Policy from "./Pages/Policies/Policy";
 import ContactUs from "./Pages/ContactUs/ContactUs";
 import Placement from "./Pages/Placement/Placement";
-import example from "./Pages/example";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -28,7 +27,7 @@ const routing = (
         <Route exact path="/placement-stats" component={Placement} />
         <Route exact path="/dummylink" component={DummyLink} />
         <Route component={DummyLink} />
-        <Route exact path="/placement-stats" component={Placement} />
+        
       </Switch>
       <Footer />
     </div>
